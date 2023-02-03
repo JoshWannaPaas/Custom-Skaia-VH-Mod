@@ -13,7 +13,7 @@ public class ItemInit {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, SkaiaMod.MOD_ID);
 
-    public static final RegistryObject<Item> SKYROOT_STICK = ITEMS.register("skyroot_stick", () -> new Item(new Item.Properties().tab(SkaiaCreativeTab.instance)));
+//    public static final RegistryObject<Item> SKYROOT_STICK = ITEMS.register("skyroot_stick", () -> new Item(new Item.Properties().tab(SkaiaCreativeTab.instance)));
 
 
 
@@ -24,7 +24,7 @@ public class ItemInit {
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(SKYROOT_STICK.get());
+            return new ItemStack(BlockInit.SKYROOT_LEAVES.get());
         }
 
         public static final SkaiaCreativeTab instance = new SkaiaCreativeTab(CreativeModeTab.TABS.length, "skaia");
