@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "skaia:blocks/skyroot_planks"
+    "texture": "skaia:block/construction/skyroot_planks"
   }
 }

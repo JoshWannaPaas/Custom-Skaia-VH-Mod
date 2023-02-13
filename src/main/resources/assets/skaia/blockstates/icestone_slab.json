@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skaia:block/icestone_slab"
+    },
+    "type=double": {
+      "model": "skaia:block/icestone"
+    },
+    "type=top": {
+      "model": "skaia:block/icestone_slab_top"
+    }
+  }
+}

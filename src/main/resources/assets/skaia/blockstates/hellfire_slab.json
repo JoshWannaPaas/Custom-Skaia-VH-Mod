@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skaia:block/hellfire_slab"
+    },
+    "type=double": {
+      "model": "skaia:block/hellfire_stone"
+    },
+    "type=top": {
+      "model": "skaia:block/hellfire_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "skaia:item/tools/valkyrie_axe"
+  }
+}

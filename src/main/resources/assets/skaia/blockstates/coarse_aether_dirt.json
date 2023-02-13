@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skaia:block/coarse_aether_dirt"
+      },
+      {
+        "model": "skaia:block/coarse_aether_dirt",
+        "y": 90
+      },
+      {
+        "model": "skaia:block/coarse_aether_dirt",
+        "y": 180
+      },
+      {
+        "model": "skaia:block/coarse_aether_dirt",
+        "y": 270
+      }
+    ]
+  }
+}

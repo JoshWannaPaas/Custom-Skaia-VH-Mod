@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "skaia:block/dungeon/angelic_stone",
+    "side": "skaia:block/dungeon/angelic_stone",
+    "top": "skaia:block/dungeon/angelic_stone"
+  }
+}

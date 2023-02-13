@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skaia:block/angelic_slab"
+    },
+    "type=double": {
+      "model": "skaia:block/angelic_stone"
+    },
+    "type=top": {
+      "model": "skaia:block/angelic_slab_top"
+    }
+  }
+}

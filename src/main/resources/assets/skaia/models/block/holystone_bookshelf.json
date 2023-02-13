@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "skaia:blocks/holystone_bricks",
-    "side": "skaia:blocks/holystone_bookshelf",
-    "particle": "skaia:blocks/holystone_bookshelf"
-  }
-}

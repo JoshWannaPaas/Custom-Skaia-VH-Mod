@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "double_drops=false": {
+      "model": "skaia:block/berry_bush_stem"
+    },
+    "double_drops=true": {
+      "model": "skaia:block/berry_bush_stem"
+    }
+  }
+}

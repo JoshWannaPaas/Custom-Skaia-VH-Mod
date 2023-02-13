@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "skaia:block/construction/skyroot_planks"
+  }
+}

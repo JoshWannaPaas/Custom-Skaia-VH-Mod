@@ -1,21 +1,6 @@
 {
-  "variants": {
-    "": [
-      {
-        "model": "skaia:block/aether_dirt"
-      },
-      {
-        "model": "skaia:block/aether_dirt",
-        "y": 90
-      },
-      {
-        "model": "skaia:block/aether_dirt",
-        "y": 180
-      },
-      {
-        "model": "skaia:block/aether_dirt",
-        "y": 270
-      }
-    ]
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "skaia:block/natural/aether_dirt"
   }
 }

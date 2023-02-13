@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "skaia:block/chest_mimic"
+    },
+    "facing=north": {
+      "model": "skaia:block/chest_mimic"
+    },
+    "facing=south": {
+      "model": "skaia:block/chest_mimic"
+    },
+    "facing=west": {
+      "model": "skaia:block/chest_mimic"
+    }
+  }
+}

@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "skaia:blocks/white_flower"
+    "cross": "skaia:block/natural/white_flower"
   }
 }

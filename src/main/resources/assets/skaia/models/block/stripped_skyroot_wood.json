@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "skaia:blocks/stripped_skyroot_log",
-    "side": "skaia:blocks/stripped_skyroot_log"
+    "end": "skaia:block/natural/stripped_skyroot_log",
+    "side": "skaia:block/natural/stripped_skyroot_log"
   }
 }

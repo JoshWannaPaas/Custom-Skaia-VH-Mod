@@ -28,8 +28,9 @@ public class BlockInit {
 
     //Other
     public static final RegistryObject<Block> CLOUDWOOL = BLOCKS.register("cloudwool", () -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL)));
-    public static final RegistryObject<Block> QUICKSOIL = BLOCKS.register("quicksoil", () -> new Block(Block.Properties.copy(Blocks.SAND).friction(1.2f)));
-
+    public static final RegistryObject<Block> QUICKSOIL = BLOCKS.register("quicksoil", () -> new Block(Block.Properties.copy(Blocks.SAND).friction(1.15f)));
+    public static final RegistryObject<GlassBlock> QUICKSOIL_GLASS = BLOCKS.register("cloudwool", () -> new GlassBlock(Block.Properties.copy(Blocks)));
+    
     //Woods
     public static final RegistryObject<Block> SKYROOT_LEAVES = BLOCKS.register("skyroot_leaves", () -> new Block(Block.Properties.of(Material.LEAVES, MaterialColor.GRASS).strength(0.2F).sound(SoundType.GRASS).noOcclusion()));
 //    public static final RegistryObject<RotatedPillarBlock>

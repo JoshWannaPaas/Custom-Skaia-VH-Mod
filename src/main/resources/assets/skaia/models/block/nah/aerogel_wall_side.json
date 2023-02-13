@@ -1,0 +1,6 @@
+{
+  "parent": "skaia:block/template_translucent_wall_side",
+  "textures": {
+    "wall": "skaia:block/construction/aerogel"
+  }
+}

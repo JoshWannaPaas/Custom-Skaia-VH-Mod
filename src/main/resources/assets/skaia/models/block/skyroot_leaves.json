@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/leaves",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "skaia:blocks/skyroot_leaves"
+    "all": "skaia:block/natural/skyroot_leaves"
   }
 }

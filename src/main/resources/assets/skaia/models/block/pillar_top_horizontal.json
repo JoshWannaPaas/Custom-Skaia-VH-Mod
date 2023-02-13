@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "end": "skaia:blocks/pillar_top",
-    "side": "skaia:blocks/pillar_carved"
+    "end": "skaia:block/dungeon/pillar_top",
+    "side": "skaia:block/dungeon/pillar_carved"
   }
 }

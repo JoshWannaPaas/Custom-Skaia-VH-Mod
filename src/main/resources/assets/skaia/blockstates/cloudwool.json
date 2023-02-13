@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skaia:block/cloudwool"
+      },
+      {
+        "model": "skaia:block/cloudwool",
+        "y": 90
+      },
+      {
+        "model": "skaia:block/cloudwool",
+        "y": 180
+      },
+      {
+        "model": "skaia:block/cloudwool",
+        "y": 270
+      }
+    ]
+  }
+}

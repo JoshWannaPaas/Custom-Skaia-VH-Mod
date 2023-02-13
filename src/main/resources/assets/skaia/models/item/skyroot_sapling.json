@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cross",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "cross": "skaia:block/skyroot_sapling"
+    "layer0": "skaia:block/natural/skyroot_sapling"
   }
 }

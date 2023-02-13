@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "invisible=false": {
+      "model": "skaia:block/light_hellfire_stone"
+    },
+    "invisible=true": {
+      "model": "skaia:block/boss_doorway_light_hellfire_stone"
+    }
+  }
+}

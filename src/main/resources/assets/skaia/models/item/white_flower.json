@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "skaia:block/white_flower"
+    "layer0": "skaia:block/natural/white_flower"
   }
 }

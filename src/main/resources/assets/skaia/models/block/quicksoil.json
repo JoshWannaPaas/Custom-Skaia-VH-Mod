@@ -1,21 +1,6 @@
 {
-  "variants": {
-    "": [
-      {
-        "model": "skaia:block/quicksoil"
-      },
-      {
-        "model": "skaia:block/quicksoil",
-        "y": 90
-      },
-      {
-        "model": "skaia:block/quicksoil",
-        "y": 180
-      },
-      {
-        "model": "skaia:block/quicksoil",
-        "y": 270
-      }
-    ]
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "skaia:block/natural/quicksoil"
   }
 }

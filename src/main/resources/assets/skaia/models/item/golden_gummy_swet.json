@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skaia:item/food/golden_gummy_swet"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "invisible=false": {
+      "model": "skaia:block/light_angelic_stone"
+    },
+    "invisible=true": {
+      "model": "skaia:block/boss_doorway_light_angelic_stone"
+    }
+  }
+}

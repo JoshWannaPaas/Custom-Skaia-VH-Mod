@@ -1,0 +1,8 @@
+{
+  "parent": "skaia:block/outer_stairs_translucent",
+  "textures": {
+    "bottom": "skaia:block/construction/aerogel",
+    "top": "skaia:block/construction/aerogel",
+    "side": "skaia:block/construction/aerogel"
+  }
+}

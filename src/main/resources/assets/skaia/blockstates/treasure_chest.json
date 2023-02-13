@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "skaia:block/treasure_chest"
+    },
+    "facing=north": {
+      "model": "skaia:block/treasure_chest"
+    },
+    "facing=south": {
+      "model": "skaia:block/treasure_chest"
+    },
+    "facing=west": {
+      "model": "skaia:block/treasure_chest"
+    }
+  }
+}
