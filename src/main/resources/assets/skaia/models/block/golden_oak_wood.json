@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skaia:blocks/golden_oak_log",
+    "side": "skaia:blocks/golden_oak_log"
+  }
+}

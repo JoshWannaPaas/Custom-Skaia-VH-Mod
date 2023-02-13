@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skaia:blocks/skyroot_planks",
+    "side": "skaia:blocks/skyroot_bookshelf",
+    "particle": "skaia:blocks/skyroot_bookshelf"
+  }
+}

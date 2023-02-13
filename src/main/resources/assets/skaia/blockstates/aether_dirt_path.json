@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skaia:block/aether_dirt_path"
+      },
+      {
+        "model": "skaia:block/aether_dirt_path",
+        "y": 90
+      },
+      {
+        "model": "skaia:block/aether_dirt_path",
+        "y": 180
+      },
+      {
+        "model": "skaia:block/aether_dirt_path",
+        "y": 270
+      }
+    ]
+  }
+}

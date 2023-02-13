@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "skaia:blocks/aether_dirt",
+    "side": "skaia:blocks/enchanted_aether_grass_block_side",
+    "top": "skaia:blocks/enchanted_aether_grass_block_top"
+  }
+}

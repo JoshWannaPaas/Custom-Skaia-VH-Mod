@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skaia:blocks/pillar_top",
+    "side": "skaia:blocks/pillar_side",
+    "particle": "skaia:blocks/pillar_side"
+  }
+}

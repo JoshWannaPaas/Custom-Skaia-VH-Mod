@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "skaia:blocks/skyroot_log",
+    "side": "skaia:blocks/skyroot_log"
+  }
+}

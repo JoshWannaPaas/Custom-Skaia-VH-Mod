@@ -3,10 +3,7 @@ package jwp.cascade.skaia.init;
 import jwp.cascade.skaia.SkaiaMod;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.GrassBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
@@ -23,12 +20,19 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SkaiaMod.MOD_ID);
 
     //Dirts
-//    public static final RegistryObject<Block> AETHER_DIRT = BLOCKS.register("aether_dirt", () -> new Block(Block.Properties.copy(Blocks.DIRT)));
-//    public static final RegistryObject<Block> AETHER_GRASS_BLOCK = BLOCKS.register("aether_grass_block", () -> new Block(Block.Properties.copy(Blocks.DIRT)));
-//    public static final RegistryObject<Block> ENCHANTED_AETHER_GRASS_BLOCK = BLOCKS.register("enchanted_aether_grass_block", () -> new Block(Block.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> AETHER_DIRT = BLOCKS.register("aether_dirt", () -> new Block(Block.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> COARSE_AETHER_DIRT = BLOCKS.register("coarse_aether_dirt", () -> new Block(Block.Properties.copy(Blocks.COARSE_DIRT)));
+    public static final RegistryObject<GrassBlock> AETHER_GRASS_BLOCK = BLOCKS.register("aether_grass_block", () -> new GrassBlock(Block.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<GrassBlock> ENCHANTED_AETHER_GRASS_BLOCK = BLOCKS.register("enchanted_aether_grass_block", () -> new GrassBlock(Block.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<DirtPathBlock> AETHER_DIRT_PATH = BLOCKS.register("aether_dirt_path", () -> new DirtPathBlock(Block.Properties.copy(Blocks.DIRT_PATH)));
+
+    //Other
+    public static final RegistryObject<Block> CLOUDWOOL = BLOCKS.register("cloudwool", () -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL)));
+    public static final RegistryObject<Block> QUICKSOIL = BLOCKS.register("quicksoil", () -> new Block(Block.Properties.copy(Blocks.SAND).friction(1.2f)));
 
     //Woods
     public static final RegistryObject<Block> SKYROOT_LEAVES = BLOCKS.register("skyroot_leaves", () -> new Block(Block.Properties.of(Material.LEAVES, MaterialColor.GRASS).strength(0.2F).sound(SoundType.GRASS).noOcclusion()));
+//    public static final RegistryObject<RotatedPillarBlock>
 
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
