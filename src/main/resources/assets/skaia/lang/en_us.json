@@ -1,6 +1,93 @@
 {
   "itemGroup.skaia": "Skaia Items",
+
+  
   "item.skaia.skyroot_stick": "Skyroot Stick",
+  
+  
   "block.skaia.aether_dirt": "Aether Dirt",
-  "block.skaia.skyroot_leaves": "Skyroot Leaves"
+  "block.skaia.coarse_aether_dirt": "Coarse Aether Dirt",
+  "block.skaia.aether_grass_block": "Aether Grass Block",
+  "block.skaia.enchanted_aether_grass_block": "Enchanted Aether Grass Block",
+  "block.skaia.aether_dirt_path": "Aether Dirt Path",
+  
+
+  "block.skaia.purple_flower": "Purple Flower",
+  "block.skaia.white_flower": "White Flower",
+  
+  "block.skaia.cloudwool": "Cloudwool",
+  "block.skaia.quicksoil": "Quicksoil",
+  "block.skaia.quicksoil_glass": "Quicksoil Glass",
+  "block.skaia.unstable_obsidian": "Unstable Obsidian",
+  "block.skaia.ambrosium_torch": "Ambrosium Torch",
+  "block.skaia.ambrosium_wall_torch": "Ambrosium Wall Torch",
+  "block.skaia.cold_aercloud": "Cold Aercloud",
+
+  "block.skaia.skyroot_leaves": "Skyroot Leaves",
+  "block.skaia.skyroot_log": "Skyroot Log",
+  "block.skaia.skyroot_wood": "Skyroot Wood",
+  "block.skaia.skyroot_planks": "Skyroot Planks",
+  "block.skaia.skyroot_fence": "Skyroot Fence",
+  "block.skaia.skyroot_fence_gate": "Skyroot Fence Gate",
+  "block.skaia.skyroot_slab": "Skyroot Slab",
+  "block.skaia.skyroot_stairs": "Skyroot Stairs",
+  "block.skaia.stripped_skyroot_log": "Stripped Skyroot Log",
+  "block.skaia.stripped_skyroot_wood": "Stripped Skyroot Wood",
+  "block.skaia.crystal_fruit_leaves": "Crystal Fruit Leaves",
+  "block.skaia.crystal_leaves": "Crystal Leaves",
+  "block.skaia.holiday_leaves": "Holiday Leaves",
+  "block.skaia.decorated_holiday_leaves": "Decorated Holiday Leaves",
+  "block.skaia.golden_oak_leaves": "Golden Oak Leaves",
+  "block.skaia.golden_oak_log": "Golden Oak Log",
+  "block.skaia.golden_oak_wood": "Golden Oak Wood",
+  "block.skaia.skyroot_bookshelf": "Skyroot Bookshelf",
+
+  "block.skaia.holystone_bookshelf": "Holystone Bookshelf",
+  "block.skaia.holystone": "Holystone",
+  "block.skaia.holystone_slab": "Holystone Slab",
+  "block.skaia.holystone_stairs": "Holystone Stairs",
+  "block.skaia.holystone_wall": "Holystone Wall",
+  "block.skaia.mossy_holystone": "Mossy Holystone",
+  "block.skaia.mossy_holystone_slab": "Mossy Holystone Slab",
+  "block.skaia.mossy_holystone_stairs": "Mossy Holystone Stairs",
+  "block.skaia.mossy_holystone_wall": "Mossy Holystone Wall",
+  "block.skaia.holystone_bricks": "Holystone Bricks",
+  "block.skaia.holystone_bricks_slab": "Holystone Brick Slab",
+  "block.skaia.holystone_bricks_stairs": "Holystone Brick Stairs",
+  "block.skaia.holystone_bricks_wall": "Holystone Brick Wall",
+  "block.skaia.faded_holystone": "Faded Holystone Bricks",
+  "block.skaia.faded_holystone_slab": "Faded Holystone Brick Slab",
+  "block.skaia.faded_holystone_stairs": "Faded Holystone Brick Stairs",
+  "block.skaia.faded_holystone_wall": "Faded Holystone Brick Wall",
+  "block.skaia.faded_holystone_flagstones": "Faded Holystone Flagstones",
+  "block.skaia.faded_holystone_base_bricks": "Faded Holystone Base Bricks",
+  "block.skaia.holystone_flagstones": "Holystone Flagstones",
+  "block.skaia.holystone_base_bricks": "Holystone Base Bricks",
+  "block.skaia.icestone": "Icestone",
+  "block.skaia.icestone_slab": "Icestone Slab",
+  "block.skaia.icestone_stairs": "Icestone Stairs",
+  "block.skaia.icestone_wall": "Icestone Wall",
+
+  "block.skaia.pillar": "Pillar",
+  "block.skaia.angelic_stone": "Angelic Stone",
+  "block.skaia.angelic_stone_slab": "Angelic Slab",
+  "block.skaia.angelic_stone_stairs": "Angelic Stairs",
+  "block.skaia.angelic_stone_wall": "Angelic Wall",
+  "block.skaia.light_angelic_stone": "Light Angelic Stone",
+  "block.skaia.carved_stone": "Carved Stone",
+  "block.skaia.carved_stone_slab": "Carved Slab",
+  "block.skaia.carved_stone_stairs": "Carved Stairs",
+  "block.skaia.carved_stone_wall": "Carved Wall",
+  "block.skaia.sentry_stone": "Sentry Stone",
+  "block.skaia.hellfire_stone": "Hellfire Stone",
+  "block.skaia.hellfire_stone_slab": "Hellfire Slab",
+  "block.skaia.hellfire_stone_stairs": "Hellfire Stairs",
+  "block.skaia.hellfire_stone_wall": "Hellfire Wall",
+  "block.skaia.light_hellfire_stone": "Light Hellfire Stone"
+
+
+
+
+
+
 }

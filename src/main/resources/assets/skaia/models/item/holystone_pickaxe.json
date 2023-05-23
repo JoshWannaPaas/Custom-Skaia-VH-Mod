@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "skaia:item/tools/holystone_pickaxe"
-  }
-}

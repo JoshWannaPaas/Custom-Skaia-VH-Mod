@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skaia:block/faded_holystone_slab"
+    },
+    "type=double": {
+      "model": "skaia:block/faded_holystone"
+    },
+    "type=top": {
+      "model": "skaia:block/faded_holystone_slab_top"
+    }
+  }
+}

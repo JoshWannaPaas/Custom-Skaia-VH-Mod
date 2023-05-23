@@ -3,6 +3,8 @@ package jwp.cascade.skaia;
 import com.mojang.logging.LogUtils;
 import jwp.cascade.skaia.init.BlockInit;
 import jwp.cascade.skaia.init.ItemInit;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -53,6 +55,12 @@ public class SkaiaMod
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+//        ItemBlockRenderTypes.setRenderLayer(BlockInit.QUICKSOIL_GLASS.get(), RenderType.translucent());
+//        ItemBlockRenderTypes.setRenderLayer(BlockInit.COLD_AERCLOUD.get(), RenderType.translucent());
+//        ItemBlockRenderTypes.setRenderLayer(BlockInit.WHITE_FLOWER.get(), RenderType.cutout());
+//        ItemBlockRenderTypes.setRenderLayer(BlockInit.PURPLE_FLOWER.get(), RenderType.cutout());
+//        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_TORCH.get(), RenderType.cutout());
+//        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_WALL_TORCH.get(), RenderType.cutout());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

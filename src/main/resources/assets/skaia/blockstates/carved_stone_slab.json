@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skaia:block/carved_stone_slab"
+    },
+    "type=double": {
+      "model": "skaia:block/carved_stone"
+    },
+    "type=top": {
+      "model": "skaia:block/carved_stone_slab_top"
+    }
+  }
+}

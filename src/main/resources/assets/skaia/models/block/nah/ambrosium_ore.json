@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "skaia:block/natural/ambrosium_ore"
-  }
-}
