@@ -1,10 +1,8 @@
-package jwp.cascade.skaia;
+package com.jwp.skaia_vh;
 
 import com.mojang.logging.LogUtils;
-import jwp.cascade.skaia.init.BlockInit;
-import jwp.cascade.skaia.init.ItemInit;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
+import com.jwp.skaia_vh.init.BlockInit;
+import com.jwp.skaia_vh.init.ItemInit;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,7 +26,7 @@ public class SkaiaMod
 {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    public static final String MOD_ID = "skaia";
+    public static final String MOD_ID = "skaia_vh";
 
     public SkaiaMod()
     {

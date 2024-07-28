@@ -1,6 +1,6 @@
-package jwp.cascade.skaia.init;
+package com.jwp.skaia_vh.init;
 
-import jwp.cascade.skaia.SkaiaMod;
+import com.jwp.skaia_vh.SkaiaMod;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

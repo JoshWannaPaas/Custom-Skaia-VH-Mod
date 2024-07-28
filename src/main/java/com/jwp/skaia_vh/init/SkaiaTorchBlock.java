@@ -1,4 +1,4 @@
-package jwp.cascade.skaia.init;
+package com.jwp.skaia_vh.init;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;

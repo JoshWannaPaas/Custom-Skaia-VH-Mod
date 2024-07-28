@@ -1,19 +1,15 @@
-package jwp.cascade.skaia.init;
+package com.jwp.skaia_vh.init;
 
-import jwp.cascade.skaia.SkaiaMod;
-import jwp.cascade.skaia.init.AetherGrassBlock;
+import com.jwp.skaia_vh.SkaiaMod;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.StandingAndWallBlockItem;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 //import net.minecraft.world.level.block.state.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
@@ -24,11 +20,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.Objects;
-import java.util.function.Supplier;
-
-import static net.minecraft.world.level.block.Blocks.TORCH;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BlockInit {

@@ -1,10 +1,9 @@
-package jwp.cascade.skaia.init;
+package com.jwp.skaia_vh.init;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.HalfTransparentBlock;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.EntityCollisionContext;
