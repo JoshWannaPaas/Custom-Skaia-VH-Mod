@@ -1,0 +1,11 @@
+{
+  "package": "com.jwp.skaia_vh.mixins",
+  "refmap": "skaia_vh.refmap.json",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "required": true,
+  "mixins": [
+
+  ],
+  "client": []
+}
