@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "skaia:aether_grass_block"
+              "name": "skaia_vh:aether_grass_block"
             },
             {
               "type": "minecraft:item",
@@ -34,7 +34,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "skaia:aether_dirt"
+              "name": "skaia_vh:aether_dirt"
             }
           ]
         }

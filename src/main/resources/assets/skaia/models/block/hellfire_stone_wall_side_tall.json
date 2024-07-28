@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side_tall",
   "textures": {
-    "wall": "skaia:block/dungeon/hellfire_stone"
+    "wall": "skaia_vh:block/dungeon/hellfire_stone"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skaia:block/ambrosium_torch"
+      "model": "skaia_vh:block/ambrosium_torch"
     }
   }
 }

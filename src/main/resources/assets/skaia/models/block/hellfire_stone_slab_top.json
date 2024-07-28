@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "bottom": "skaia:block/dungeon/hellfire_stone",
-    "side": "skaia:block/dungeon/hellfire_stone",
-    "top": "skaia:block/dungeon/hellfire_stone"
+    "bottom": "skaia_vh:block/dungeon/hellfire_stone",
+    "side": "skaia_vh:block/dungeon/hellfire_stone",
+    "top": "skaia_vh:block/dungeon/hellfire_stone"
   }
 }

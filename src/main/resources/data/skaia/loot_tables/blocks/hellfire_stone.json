@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:hellfire_stone"
+          "name": "skaia_vh:hellfire_stone"
         }
       ],
       "rolls": 1.0

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:faded_holystone"
+          "name": "skaia_vh:faded_holystone"
         }
       ],
       "rolls": 1.0

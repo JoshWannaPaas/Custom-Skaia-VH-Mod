@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skaia:block/holiday_leaves"
+      "model": "skaia_vh:block/holiday_leaves"
     }
   }
 }

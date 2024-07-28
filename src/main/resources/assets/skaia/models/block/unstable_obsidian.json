@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "skaia:block/unstable_obsidian"
+    "all": "skaia_vh:block/unstable_obsidian"
   }
 }

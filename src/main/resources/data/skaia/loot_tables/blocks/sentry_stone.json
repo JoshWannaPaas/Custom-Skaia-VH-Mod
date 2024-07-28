@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:sentry_stone"
+          "name": "skaia_vh:sentry_stone"
         }
       ],
       "rolls": 1.0

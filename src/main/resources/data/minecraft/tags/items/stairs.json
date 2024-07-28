@@ -1,13 +1,13 @@
 {
   "values": [
-    "skaia:skyroot_stairs",
-    "skaia:carved_stone_stairs",
-    "skaia:angelic_stone_stairs",
-    "skaia:hellfire_stone_stairs",
-    "skaia:holystone_stairs",
-    "skaia:mossy_holystone_stairs",
-    "skaia:icestone_stairs",
-    "skaia:holystone_bricks_stairs",
-    "skaia:faded_holystone_stairs"
+    "skaia_vh:skyroot_stairs",
+    "skaia_vh:carved_stone_stairs",
+    "skaia_vh:angelic_stone_stairs",
+    "skaia_vh:hellfire_stone_stairs",
+    "skaia_vh:holystone_stairs",
+    "skaia_vh:mossy_holystone_stairs",
+    "skaia_vh:icestone_stairs",
+    "skaia_vh:holystone_bricks_stairs",
+    "skaia_vh:faded_holystone_stairs"
   ]
 }

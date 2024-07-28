@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skaia:block/skyroot_leaves"
+      "model": "skaia_vh:block/skyroot_leaves"
     }
   }
 }

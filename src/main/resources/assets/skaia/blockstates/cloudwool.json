@@ -2,18 +2,18 @@
   "variants": {
     "": [
       {
-        "model": "skaia:block/cloudwool"
+        "model": "skaia_vh:block/cloudwool"
       },
       {
-        "model": "skaia:block/cloudwool",
+        "model": "skaia_vh:block/cloudwool",
         "y": 90
       },
       {
-        "model": "skaia:block/cloudwool",
+        "model": "skaia_vh:block/cloudwool",
         "y": 180
       },
       {
-        "model": "skaia:block/cloudwool",
+        "model": "skaia_vh:block/cloudwool",
         "y": 270
       }
     ]

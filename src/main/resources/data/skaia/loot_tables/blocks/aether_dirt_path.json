@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:aether_dirt"
+          "name": "skaia_vh:aether_dirt"
         }
       ],
       "rolls": 1.0

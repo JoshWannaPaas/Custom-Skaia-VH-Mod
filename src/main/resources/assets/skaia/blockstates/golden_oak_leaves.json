@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skaia:block/golden_oak_leaves"
+      "model": "skaia_vh:block/golden_oak_leaves"
     }
   }
 }

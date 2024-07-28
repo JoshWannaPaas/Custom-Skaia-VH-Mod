@@ -1,10 +1,10 @@
 {
   "values": [
-    "skaia:skyroot_leaves",
-    "skaia:golden_oak_leaves",
-    "skaia:crystal_leaves",
-    "skaia:crystal_fruit_leaves",
-    "skaia:holiday_leaves",
-    "skaia:decorated_holiday_leaves"
+    "skaia_vh:skyroot_leaves",
+    "skaia_vh:golden_oak_leaves",
+    "skaia_vh:crystal_leaves",
+    "skaia_vh:crystal_fruit_leaves",
+    "skaia_vh:holiday_leaves",
+    "skaia_vh:decorated_holiday_leaves"
   ]
 }

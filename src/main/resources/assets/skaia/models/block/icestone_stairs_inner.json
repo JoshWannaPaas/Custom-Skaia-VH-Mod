@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/inner_stairs",
   "textures": {
-    "bottom": "skaia:block/natural/icestone",
-    "side": "skaia:block/natural/icestone",
-    "top": "skaia:block/natural/icestone"
+    "bottom": "skaia_vh:block/natural/icestone",
+    "side": "skaia_vh:block/natural/icestone",
+    "top": "skaia_vh:block/natural/icestone"
   }
 }

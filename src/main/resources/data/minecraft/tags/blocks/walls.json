@@ -1,12 +1,12 @@
 {
   "values": [
-    "skaia:carved_stone_wall",
-    "skaia:angelic_stone_wall",
-    "skaia:hellfire_stone_wall",
-    "skaia:holystone_wall",
-    "skaia:mossy_holystone_wall",
-    "skaia:icestone_wall",
-    "skaia:holystone_bricks_wall",
-    "skaia:faded_holystone_wall"
+    "skaia_vh:carved_stone_wall",
+    "skaia_vh:angelic_stone_wall",
+    "skaia_vh:hellfire_stone_wall",
+    "skaia_vh:holystone_wall",
+    "skaia_vh:mossy_holystone_wall",
+    "skaia_vh:icestone_wall",
+    "skaia_vh:holystone_bricks_wall",
+    "skaia_vh:faded_holystone_wall"
   ]
 }

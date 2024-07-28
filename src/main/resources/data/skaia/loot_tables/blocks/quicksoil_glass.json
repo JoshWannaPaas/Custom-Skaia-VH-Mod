@@ -21,7 +21,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:quicksoil_glass"
+          "name": "skaia_vh:quicksoil_glass"
         }
       ],
       "rolls": 1.0

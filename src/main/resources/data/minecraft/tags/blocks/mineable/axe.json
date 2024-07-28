@@ -1,16 +1,16 @@
 {
   "values": [
-    "skaia:skyroot_log",
-    "skaia:skyroot_wood",
-    "skaia:stripped_skyroot_log",
-    "skaia:stripped_skyroot_wood",
-    "skaia:skyroot_planks",
-    "skaia:skyroot_fence",
-    "skaia:skyroot_fence_gate",
-    "skaia:skyroot_slab",
-    "skaia:skyroot_stairs",
-    "skaia:golden_oak_log",
-    "skaia:golden_oak_wood",
-    "skaia:skyroot_bookshelf"
+    "skaia_vh:skyroot_log",
+    "skaia_vh:skyroot_wood",
+    "skaia_vh:stripped_skyroot_log",
+    "skaia_vh:stripped_skyroot_wood",
+    "skaia_vh:skyroot_planks",
+    "skaia_vh:skyroot_fence",
+    "skaia_vh:skyroot_fence_gate",
+    "skaia_vh:skyroot_slab",
+    "skaia_vh:skyroot_stairs",
+    "skaia_vh:golden_oak_log",
+    "skaia_vh:golden_oak_wood",
+    "skaia_vh:skyroot_bookshelf"
   ]
 }

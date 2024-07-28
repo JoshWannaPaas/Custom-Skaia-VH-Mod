@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skaia:block/stripped_skyroot_log_horizontal",
+      "model": "skaia_vh:block/stripped_skyroot_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skaia:block/stripped_skyroot_log"
+      "model": "skaia_vh:block/stripped_skyroot_log"
     },
     "axis=z": {
-      "model": "skaia:block/stripped_skyroot_log_horizontal",
+      "model": "skaia_vh:block/stripped_skyroot_log_horizontal",
       "x": 90
     }
   }

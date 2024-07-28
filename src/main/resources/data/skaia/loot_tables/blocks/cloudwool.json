@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:cloudwool"
+          "name": "skaia_vh:cloudwool"
         }
       ],
       "rolls": 1.0

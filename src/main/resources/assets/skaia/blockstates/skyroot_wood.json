@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skaia:block/skyroot_wood_horizontal",
+      "model": "skaia_vh:block/skyroot_wood_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skaia:block/skyroot_wood"
+      "model": "skaia_vh:block/skyroot_wood"
     },
     "axis=z": {
-      "model": "skaia:block/skyroot_wood_horizontal",
+      "model": "skaia_vh:block/skyroot_wood_horizontal",
       "x": 90
     }
   }

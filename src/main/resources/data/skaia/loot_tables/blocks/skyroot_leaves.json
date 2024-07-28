@@ -38,7 +38,7 @@
                   ]
                 }
               ],
-              "name": "skaia:skyroot_leaves"
+              "name": "skaia_vh:skyroot_leaves"
             },
             {
               "type": "minecraft:item",
@@ -69,7 +69,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "skaia:skyroot_stick"
+              "name": "skaia_vh:skyroot_stick"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "skaia:block/holystone_flagstones"
+    "all": "skaia_vh:block/holystone_flagstones"
   }
 }

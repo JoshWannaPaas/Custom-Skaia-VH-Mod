@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:mossy_holystone_wall"
+          "name": "skaia_vh:mossy_holystone_wall"
         }
       ],
       "rolls": 1.0

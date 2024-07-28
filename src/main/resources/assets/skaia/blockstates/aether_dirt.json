@@ -2,18 +2,18 @@
   "variants": {
     "": [
       {
-        "model": "skaia:block/aether_dirt"
+        "model": "skaia_vh:block/aether_dirt"
       },
       {
-        "model": "skaia:block/aether_dirt",
+        "model": "skaia_vh:block/aether_dirt",
         "y": 90
       },
       {
-        "model": "skaia:block/aether_dirt",
+        "model": "skaia_vh:block/aether_dirt",
         "y": 180
       },
       {
-        "model": "skaia:block/aether_dirt",
+        "model": "skaia_vh:block/aether_dirt",
         "y": 270
       }
     ]

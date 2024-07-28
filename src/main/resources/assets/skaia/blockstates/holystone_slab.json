@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skaia:block/holystone_slab"
+      "model": "skaia_vh:block/holystone_slab"
     },
     "type=double": {
-      "model": "skaia:block/holystone"
+      "model": "skaia_vh:block/holystone"
     },
     "type=top": {
-      "model": "skaia:block/holystone_slab_top"
+      "model": "skaia_vh:block/holystone_slab_top"
     }
   }
 }

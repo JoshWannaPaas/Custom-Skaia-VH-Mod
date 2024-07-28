@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:white_flower"
+          "name": "skaia_vh:white_flower"
         }
       ],
       "rolls": 1.0

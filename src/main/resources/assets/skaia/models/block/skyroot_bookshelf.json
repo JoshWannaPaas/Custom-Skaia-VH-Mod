@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "skaia:block/construction/skyroot_planks",
-    "side": "skaia:block/construction/skyroot_bookshelf"
+    "end": "skaia_vh:block/construction/skyroot_planks",
+    "side": "skaia_vh:block/construction/skyroot_bookshelf"
   }
 }

@@ -1,13 +1,13 @@
 {
   "values": [
-    "skaia:skyroot_slab",
-    "skaia:carved_stone_slab",
-    "skaia:angelic_stone_slab",
-    "skaia:hellfire_stone_slab",
-    "skaia:holystone_slab",
-    "skaia:mossy_holystone_slab",
-    "skaia:icestone_slab",
-    "skaia:holystone_bricks_slab",
-    "skaia:faded_holystone_slab"
+    "skaia_vh:skyroot_slab",
+    "skaia_vh:carved_stone_slab",
+    "skaia_vh:angelic_stone_slab",
+    "skaia_vh:hellfire_stone_slab",
+    "skaia_vh:holystone_slab",
+    "skaia_vh:mossy_holystone_slab",
+    "skaia_vh:icestone_slab",
+    "skaia_vh:holystone_bricks_slab",
+    "skaia_vh:faded_holystone_slab"
   ]
 }

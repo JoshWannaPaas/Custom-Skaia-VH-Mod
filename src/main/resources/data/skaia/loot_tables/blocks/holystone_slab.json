@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "skaia:holystone_slab",
+                  "block": "skaia_vh:holystone_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "skaia:holystone_slab"
+          "name": "skaia_vh:holystone_slab"
         }
       ]
     }

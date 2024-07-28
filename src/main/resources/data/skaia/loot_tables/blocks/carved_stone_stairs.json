@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:carved_stone_stairs"
+          "name": "skaia_vh:carved_stone_stairs"
         }
       ],
       "rolls": 1.0

@@ -2,6 +2,6 @@
   "parent": "minecraft:block/flower_pot_cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "plant": "skaia:block/natural/white_flower"
+    "plant": "skaia_vh:block/natural/white_flower"
   }
 }

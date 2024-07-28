@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_post",
   "textures": {
-    "wall": "skaia:block/dungeon/carved_stone"
+    "wall": "skaia_vh:block/dungeon/carved_stone"
   }
 }

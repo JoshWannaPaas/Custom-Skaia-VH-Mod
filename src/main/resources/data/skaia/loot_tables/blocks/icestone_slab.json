@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "skaia:icestone_slab",
+                  "block": "skaia_vh:icestone_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "skaia:icestone_slab"
+          "name": "skaia_vh:icestone_slab"
         }
       ]
     }

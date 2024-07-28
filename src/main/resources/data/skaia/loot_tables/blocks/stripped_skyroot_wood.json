@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:stripped_skyroot_wood"
+          "name": "skaia_vh:stripped_skyroot_wood"
         }
       ],
       "rolls": 1.0

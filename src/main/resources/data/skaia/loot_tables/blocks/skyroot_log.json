@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:skyroot_log"
+          "name": "skaia_vh:skyroot_log"
         }
       ],
       "rolls": 1.0

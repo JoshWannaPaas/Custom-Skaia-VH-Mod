@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "skaia:item/materials/skyroot_stick"
+    "layer0": "skaia_vh:item/materials/skyroot_stick"
   }
 }

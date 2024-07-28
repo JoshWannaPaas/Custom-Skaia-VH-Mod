@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skaia:block/skyroot_slab"
+      "model": "skaia_vh:block/skyroot_slab"
     },
     "type=double": {
-      "model": "skaia:block/skyroot_planks"
+      "model": "skaia_vh:block/skyroot_planks"
     },
     "type=top": {
-      "model": "skaia:block/skyroot_slab_top"
+      "model": "skaia_vh:block/skyroot_slab_top"
     }
   }
 }

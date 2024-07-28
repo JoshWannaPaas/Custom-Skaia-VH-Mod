@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "skaia:block/dungeon/angelic_stone"
+    "wall": "skaia_vh:block/dungeon/angelic_stone"
   }
 }

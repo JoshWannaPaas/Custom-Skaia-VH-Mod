@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:icestone"
+          "name": "skaia_vh:icestone"
         }
       ],
       "rolls": 1.0

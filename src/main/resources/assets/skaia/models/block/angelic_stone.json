@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "skaia:block/dungeon/angelic_stone"
+    "all": "skaia_vh:block/dungeon/angelic_stone"
   }
 }

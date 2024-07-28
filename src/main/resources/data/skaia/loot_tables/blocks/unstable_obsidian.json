@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:unstable_obsidian"
+          "name": "skaia_vh:unstable_obsidian"
         }
       ],
       "rolls": 1.0

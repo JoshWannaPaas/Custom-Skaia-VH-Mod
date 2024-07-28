@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:skyroot_fence"
+          "name": "skaia_vh:skyroot_fence"
         }
       ],
       "rolls": 1.0

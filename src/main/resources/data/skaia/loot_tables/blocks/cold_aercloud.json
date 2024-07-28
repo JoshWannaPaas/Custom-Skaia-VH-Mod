@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:cold_aercloud"
+          "name": "skaia_vh:cold_aercloud"
         }
       ],
       "rolls": 1.0

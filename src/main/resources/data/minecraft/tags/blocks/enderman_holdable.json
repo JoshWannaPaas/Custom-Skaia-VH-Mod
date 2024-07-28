@@ -1,8 +1,8 @@
 {
   "values": [
-    "#skaia:aether_dirt",
-    "skaia:quicksoil",
-    "skaia:purple_flower",
-    "skaia:white_flower"
+    "#skaia_vh:aether_dirt",
+    "skaia_vh:quicksoil",
+    "skaia_vh:purple_flower",
+    "skaia_vh:white_flower"
   ]
 }

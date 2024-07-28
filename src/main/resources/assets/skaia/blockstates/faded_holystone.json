@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skaia:block/faded_holystone"
+      "model": "skaia_vh:block/faded_holystone"
     }
   }
 }

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:ambrosium_torch"
+          "name": "skaia_vh:ambrosium_torch"
         }
       ],
       "rolls": 1.0

@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "skaia:skyroot_slab",
+                  "block": "skaia_vh:skyroot_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "skaia:skyroot_slab"
+          "name": "skaia_vh:skyroot_slab"
         }
       ]
     }

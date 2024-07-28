@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skaia:block/icestone_slab"
+      "model": "skaia_vh:block/icestone_slab"
     },
     "type=double": {
-      "model": "skaia:block/icestone"
+      "model": "skaia_vh:block/icestone"
     },
     "type=top": {
-      "model": "skaia:block/icestone_slab_top"
+      "model": "skaia_vh:block/icestone_slab_top"
     }
   }
 }

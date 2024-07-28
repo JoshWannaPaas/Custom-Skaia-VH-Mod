@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "skaia:block/natural/holystone"
+    "wall": "skaia_vh:block/natural/holystone"
   }
 }

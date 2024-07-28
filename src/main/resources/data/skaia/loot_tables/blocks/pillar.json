@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:pillar"
+          "name": "skaia_vh:pillar"
         }
       ],
       "rolls": 1.0

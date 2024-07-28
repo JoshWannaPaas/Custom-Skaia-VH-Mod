@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skaia:block/pillar_horizontal",
+      "model": "skaia_vh:block/pillar_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skaia:block/pillar"
+      "model": "skaia_vh:block/pillar"
     },
     "axis=z": {
-      "model": "skaia:block/pillar_horizontal",
+      "model": "skaia_vh:block/pillar_horizontal",
       "x": 90
     }
   }

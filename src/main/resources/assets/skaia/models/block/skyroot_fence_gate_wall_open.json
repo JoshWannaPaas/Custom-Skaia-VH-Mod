@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_wall_open",
   "textures": {
-    "texture": "skaia:block/construction/skyroot_planks"
+    "texture": "skaia_vh:block/construction/skyroot_planks"
   }
 }

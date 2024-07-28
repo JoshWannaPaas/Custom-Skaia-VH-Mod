@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skaia:block/potted_white_flower"
+      "model": "skaia_vh:block/potted_white_flower"
     }
   }
 }

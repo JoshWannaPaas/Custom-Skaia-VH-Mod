@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "skaia:block/natural/holiday_leaves"
+    "all": "skaia_vh:block/natural/holiday_leaves"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "skaia:block/utility/ambrosium_torch"
+    "layer0": "skaia_vh:block/utility/ambrosium_torch"
   }
 }

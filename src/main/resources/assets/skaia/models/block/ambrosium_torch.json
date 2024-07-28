@@ -2,6 +2,6 @@
   "parent": "minecraft:block/template_torch",
   "render_type": "minecraft:cutout",
   "textures": {
-    "torch": "skaia:block/utility/ambrosium_torch"
+    "torch": "skaia_vh:block/utility/ambrosium_torch"
   }
 }

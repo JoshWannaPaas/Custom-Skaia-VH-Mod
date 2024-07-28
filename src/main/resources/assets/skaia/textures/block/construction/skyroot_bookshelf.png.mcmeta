@@ -1,6 +1,6 @@
 {
     "ctm": {
         "ctm_version": 1,
-        "proxy": "skaia:block/construction/skyroot_bookshelf-ctmh"
+        "proxy": "skaia_vh:block/construction/skyroot_bookshelf-ctmh"
     }
 }

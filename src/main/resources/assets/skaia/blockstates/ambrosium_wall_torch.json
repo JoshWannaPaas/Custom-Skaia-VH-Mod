@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "skaia:block/ambrosium_wall_torch"
+      "model": "skaia_vh:block/ambrosium_wall_torch"
     },
     "facing=north": {
-      "model": "skaia:block/ambrosium_wall_torch",
+      "model": "skaia_vh:block/ambrosium_wall_torch",
       "y": 270
     },
     "facing=south": {
-      "model": "skaia:block/ambrosium_wall_torch",
+      "model": "skaia_vh:block/ambrosium_wall_torch",
       "y": 90
     },
     "facing=west": {
-      "model": "skaia:block/ambrosium_wall_torch",
+      "model": "skaia_vh:block/ambrosium_wall_torch",
       "y": 180
     }
   }

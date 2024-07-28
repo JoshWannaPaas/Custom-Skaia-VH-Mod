@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "bottom": "skaia:block/natural/mossy_holystone",
-    "side": "skaia:block/natural/mossy_holystone",
-    "top": "skaia:block/natural/mossy_holystone"
+    "bottom": "skaia_vh:block/natural/mossy_holystone",
+    "side": "skaia_vh:block/natural/mossy_holystone",
+    "top": "skaia_vh:block/natural/mossy_holystone"
   }
 }

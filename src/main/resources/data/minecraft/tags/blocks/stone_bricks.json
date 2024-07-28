@@ -1,9 +1,9 @@
 {
   "values": [
-    "skaia:holystone_bricks",
-    "skaia:faded_holystone",
-    "skaia:carved_stone",
-    "skaia:hellfire_stone",
-    "skaia:angelic_stone"
+    "skaia_vh:holystone_bricks",
+    "skaia_vh:faded_holystone",
+    "skaia_vh:carved_stone",
+    "skaia_vh:hellfire_stone",
+    "skaia_vh:angelic_stone"
   ]
 }

@@ -2,7 +2,7 @@
   "parent": "minecraft:block/template_glass_pane_side_alt",
   "render_type": "minecraft:translucent",
   "textures": {
-    "edge": "skaia:block/construction/quicksoil_glass_pane_top",
-    "pane": "skaia:block/construction/quicksoil_glass"
+    "edge": "skaia_vh:block/construction/quicksoil_glass_pane_top",
+    "pane": "skaia_vh:block/construction/quicksoil_glass"
   }
 }

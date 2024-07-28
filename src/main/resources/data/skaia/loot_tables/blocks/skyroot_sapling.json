@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:skyroot_sapling"
+          "name": "skaia_vh:skyroot_sapling"
         }
       ],
       "rolls": 1.0

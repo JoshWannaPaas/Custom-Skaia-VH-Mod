@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:angelic_stone"
+          "name": "skaia_vh:angelic_stone"
         }
       ],
       "rolls": 1.0

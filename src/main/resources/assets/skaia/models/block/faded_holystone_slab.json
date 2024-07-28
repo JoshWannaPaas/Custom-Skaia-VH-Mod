@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "bottom": "skaia:block/faded_holystone",
-    "side": "skaia:block/faded_holystone",
-    "top": "skaia:block/faded_holystone"
+    "bottom": "skaia_vh:block/faded_holystone",
+    "side": "skaia_vh:block/faded_holystone",
+    "top": "skaia_vh:block/faded_holystone"
   }
 }

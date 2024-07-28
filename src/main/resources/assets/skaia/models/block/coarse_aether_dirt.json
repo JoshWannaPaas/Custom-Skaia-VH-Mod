@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "skaia:block/coarse_aether_dirt"
+    "all": "skaia_vh:block/coarse_aether_dirt"
   }
 }

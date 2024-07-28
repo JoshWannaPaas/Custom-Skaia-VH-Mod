@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "skaia:holystone_flagstones"
+          "name": "skaia_vh:holystone_flagstones"
         }
       ],
       "rolls": 1.0

@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skaia:block/mossy_holystone_slab"
+      "model": "skaia_vh:block/mossy_holystone_slab"
     },
     "type=double": {
-      "model": "skaia:block/mossy_holystone"
+      "model": "skaia_vh:block/mossy_holystone"
     },
     "type=top": {
-      "model": "skaia:block/mossy_holystone_slab_top"
+      "model": "skaia_vh:block/mossy_holystone_slab_top"
     }
   }
 }
