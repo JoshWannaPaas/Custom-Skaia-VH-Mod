@@ -5,7 +5,12 @@
   "compatibilityLevel": "JAVA_17",
   "required": true,
   "mixins": [
-
+    "MixinGearRollRaritiesConfig",
+    "MixinModDynamicModels",
+    "MixinModModels",
+    "MixinReforgeTagModificationFocus",
+    "MixinVaultGearToolTier",
+    "MixinVaultGearWorkbenchConfig"
   ],
   "client": []
 }

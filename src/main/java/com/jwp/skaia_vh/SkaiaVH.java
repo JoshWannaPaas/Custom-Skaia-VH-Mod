@@ -1,8 +1,10 @@
 package com.jwp.skaia_vh;
 
+import com.jwp.skaia_vh.api.registry.CustomVaultGearRegistry;
 import com.jwp.skaia_vh.init.ModBlocks;
 import com.mojang.logging.LogUtils;
 import com.jwp.skaia_vh.init.ModItems;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,7 +29,6 @@ public class SkaiaVH
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "skaia_vh";
-
     public SkaiaVH()
     {
         // Register the setup method for modloading
@@ -41,6 +42,7 @@ public class SkaiaVH
         modEventBus.addListener(this::setup);
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
+
 //        SkaiaSoundEvents.register(modEventBus);
 //        EntityInit.ENTITY_TYPES.register(modEventBus);
 
@@ -59,6 +61,7 @@ public class SkaiaVH
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.PURPLE_FLOWER.get(), RenderType.cutout());
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_TORCH.get(), RenderType.cutout());
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_WALL_TORCH.get(), RenderType.cutout());
+//        CustomVaultGearRegistry.registerAllGearEntries();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
