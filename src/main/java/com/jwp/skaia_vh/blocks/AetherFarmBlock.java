@@ -1,5 +1,6 @@
-package com.jwp.skaia_vh.init;
+package com.jwp.skaia_vh.blocks;
 
+import com.jwp.skaia_vh.init.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -15,6 +16,6 @@ public class AetherFarmBlock extends FarmBlock {
     }
 
     public static void turnToDirt(BlockState p_53297_, Level p_53298_, BlockPos p_53299_) {
-        p_53298_.setBlockAndUpdate(p_53299_, pushEntitiesUp(p_53297_, BlockInit.AETHER_DIRT.get().defaultBlockState(), p_53298_, p_53299_));
+        p_53298_.setBlockAndUpdate(p_53299_, pushEntitiesUp(p_53297_, ModBlocks.AETHER_DIRT.get().defaultBlockState(), p_53298_, p_53299_));
     }
 }

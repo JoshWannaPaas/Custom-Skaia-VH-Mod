@@ -1,5 +1,6 @@
-package com.jwp.skaia_vh.init;
+package com.jwp.skaia_vh.blocks;
 
+import com.jwp.skaia_vh.init.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -23,7 +24,7 @@ public class AetherGrassBlock extends GrassBlock {
 
 
     public boolean onTreeGrow(BlockState state, LevelReader level, BiConsumer<BlockPos, BlockState> placeFunction, RandomSource randomSource, BlockPos pos, TreeConfiguration config) {
-        placeFunction.accept(pos, BlockInit.AETHER_DIRT.get().defaultBlockState());
+        placeFunction.accept(pos, ModBlocks.AETHER_DIRT.get().defaultBlockState());
         return true;
     }
 
@@ -48,7 +49,7 @@ public class AetherGrassBlock extends GrassBlock {
     public void randomTick(BlockState p_56819_, ServerLevel p_56820_, BlockPos p_56821_, Random p_56822_) {
         if (!canBeGrass(p_56819_, p_56820_, p_56821_)) {
             if (!p_56820_.isAreaLoaded(p_56821_, 1)) return; // Forge: prevent loading unloaded chunks when checking neighbor's light and spreading
-            p_56820_.setBlockAndUpdate(p_56821_, BlockInit.AETHER_DIRT.get().defaultBlockState());
+            p_56820_.setBlockAndUpdate(p_56821_, ModBlocks.AETHER_DIRT.get().defaultBlockState());
         } else {
             if (!p_56820_.isAreaLoaded(p_56821_, 3)) return; // Forge: prevent loading unloaded chunks when checking neighbor's light and spreading
             if (p_56820_.getMaxLocalRawBrightness(p_56821_.above()) >= 9) {
@@ -56,7 +57,7 @@ public class AetherGrassBlock extends GrassBlock {
 
                 for(int i = 0; i < 4; ++i) {
                     BlockPos blockpos = p_56821_.offset(p_56822_.nextInt(3) - 1, p_56822_.nextInt(5) - 3, p_56822_.nextInt(3) - 1);
-                    if (p_56820_.getBlockState(blockpos).is(BlockInit.AETHER_DIRT.get()) && canPropagate(blockstate, p_56820_, blockpos)) {
+                    if (p_56820_.getBlockState(blockpos).is(ModBlocks.AETHER_DIRT.get()) && canPropagate(blockstate, p_56820_, blockpos)) {
                         p_56820_.setBlockAndUpdate(blockpos, blockstate.setValue(SNOWY, Boolean.valueOf(p_56820_.getBlockState(blockpos.above()).is(Blocks.SNOW))));
                     }
                 }

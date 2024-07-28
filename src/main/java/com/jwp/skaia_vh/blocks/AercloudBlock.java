@@ -1,4 +1,4 @@
-package com.jwp.skaia_vh.init;
+package com.jwp.skaia_vh.blocks;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;

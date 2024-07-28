@@ -1,8 +1,8 @@
 package com.jwp.skaia_vh;
 
+import com.jwp.skaia_vh.init.ModBlocks;
 import com.mojang.logging.LogUtils;
-import com.jwp.skaia_vh.init.BlockInit;
-import com.jwp.skaia_vh.init.ItemInit;
+import com.jwp.skaia_vh.init.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -21,14 +21,14 @@ import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(SkaiaMod.MOD_ID)
-public class SkaiaMod
+@Mod(SkaiaVH.MOD_ID)
+public class SkaiaVH
 {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "skaia_vh";
 
-    public SkaiaMod()
+    public SkaiaVH()
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -39,8 +39,8 @@ public class SkaiaMod
 
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
-        ItemInit.ITEMS.register(modEventBus);
-        BlockInit.BLOCKS.register(modEventBus);
+        ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
 //        SkaiaSoundEvents.register(modEventBus);
 //        EntityInit.ENTITY_TYPES.register(modEventBus);
 
@@ -64,7 +64,7 @@ public class SkaiaMod
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // Some example code to dispatch IMC to another mod
-        InterModComms.sendTo(SkaiaMod.MOD_ID, "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        InterModComms.sendTo(SkaiaVH.MOD_ID, "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event)

@@ -1,4 +1,4 @@
-package com.jwp.skaia_vh.init;
+package com.jwp.skaia_vh.blocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
