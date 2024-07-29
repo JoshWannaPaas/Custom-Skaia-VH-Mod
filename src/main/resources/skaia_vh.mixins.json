@@ -5,7 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "required": true,
   "mixins": [
-    "MixinGearRollRaritiesConfig",
+    "MixinGearModelRollRaritiesConfig",
     "MixinModDynamicModels",
     "MixinModModels",
     "MixinReforgeTagModificationFocus",
