@@ -26,20 +26,20 @@ import java.util.stream.Collectors;
 public abstract class MixinGearModelRollRaritiesConfig extends Config {
 
     @Expose
-    Map<String, List<String>> DAGGER_MODEL_ROLLS;
+    private static Map<VaultGearRarity, List<String>> DAGGER_MODEL_ROLLS;
 
 
     @Inject(method = "reset", at = @At("HEAD"))
     private void resetHook(CallbackInfo ci) {
         DAGGER_MODEL_ROLLS = new HashMap<>();
-        DAGGER_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY.name(),
-                Daggers.REGISTRY.getIds().stream()
-                    .map(ResourceLocation::toString)
-                    .collect(Collectors.toList()));
+        DAGGER_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY, (List<String>) Daggers.REGISTRY
+            .getIds().stream()
+            .map(ResourceLocation::toString)
+            .collect(Collectors.toList()));
     }
 
     @Inject(method = "getRolls", at = @At("HEAD"), cancellable = true)
-    private void getRollsHook(CallbackInfoReturnable<Map<String, List<String>>> cir, @Local LocalRef<ItemStack> stack) {
+    private void getRollsHook(CallbackInfoReturnable<Map<VaultGearRarity, List<String>>> cir, @Local LocalRef<ItemStack> stack) {
         if (stack instanceof VaultDaggerItem)
             cir.setReturnValue(DAGGER_MODEL_ROLLS);
     }

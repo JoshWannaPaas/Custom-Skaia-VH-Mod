@@ -1,13 +1,9 @@
 package com.jwp.skaia_vh.api.registry;
 
+import iskallia.vault.init.ModItems;
+import net.minecraft.world.level.ItemLike;
 import com.jwp.skaia_vh.api.registry.record.CustomVaultGearEntry;
 import com.jwp.skaia_vh.init.ModCustomVaultGearEntries;
-import iskallia.vault.dynamodel.model.item.HandHeldModel;
-import iskallia.vault.dynamodel.registry.DynamicModelRegistry;
-import iskallia.vault.init.ModItems;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.ItemLike;
-import net.minecraftforge.registries.RegistryObject;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -31,7 +27,7 @@ public class CustomVaultGearRegistry {
 
     public static ItemLike[] getItemLikes() {
         Set<ItemLike> itemLikeList = new HashSet<ItemLike>();
-        for (CustomVaultGearEntry entry : CUSTOM_VAULT_GEAR_ENTRIES) {
+        for(CustomVaultGearEntry entry : CUSTOM_VAULT_GEAR_ENTRIES) {
             itemLikeList.add(entry.registryItem());
         }
         itemLikeList.addAll(List.of(ModItems.HELMET, ModItems.CHESTPLATE, ModItems.LEGGINGS, ModItems.BOOTS, ModItems.AXE, ModItems.SWORD, ModItems.SHIELD, ModItems.IDOL_BENEVOLENT, ModItems.IDOL_OMNISCIENT, ModItems.IDOL_TIMEKEEPER, ModItems.IDOL_MALEVOLENCE, ModItems.MAGNET, ModItems.WAND, ModItems.FOCUS));

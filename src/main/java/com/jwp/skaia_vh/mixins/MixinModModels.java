@@ -32,10 +32,10 @@ public class MixinModModels {
             if (tintLayer > 0) {
                 GearDataCache clientCache = GearDataCache.of(stack);
                 if (clientCache.getState() == VaultGearState.UNIDENTIFIED) {
-                    Optional var10000 = Optional.ofNullable(clientCache.getGearRollType());
+                    Optional<String> var10000 = Optional.ofNullable(clientCache.getGearRollType());
                     VaultGearTypeConfig var10001 = ModConfigs.VAULT_GEAR_TYPE_CONFIG;
                     Objects.requireNonNull(var10001);
-                    VaultGearTypeConfig.RollType type = (VaultGearTypeConfig.RollType)var10000.flatMap(x -> var10001.getRollPool(x.toString())).orElse((Object)null);
+                    VaultGearTypeConfig.RollType type = (VaultGearTypeConfig.RollType)var10000.flatMap(var10001::getRollPool).orElse((VaultGearTypeConfig.RollType) null);
                     if (type != null) {
                         return ColorUtil.blendColors(type.getColor(), -1, 0.8F);
                     }
@@ -61,4 +61,6 @@ public class MixinModModels {
         }, new ItemLike[]{ModItems.BOTTLE});
     }
 }
+
+
 
