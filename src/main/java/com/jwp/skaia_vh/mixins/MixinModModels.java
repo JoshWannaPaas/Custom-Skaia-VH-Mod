@@ -22,6 +22,7 @@ import java.util.Optional;
 
 @Mixin(value = ModModels.class, remap = false)
 public class MixinModModels {
+
     /**
      * @author JoshWannaPaas
      * @reason Add Daggers to color registry

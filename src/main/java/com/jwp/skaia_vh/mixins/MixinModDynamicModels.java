@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MixinModDynamicModels {
     @Shadow @Final public static DynamicModelRegistries REGISTRIES;
 
-    @Inject(method = "initItemAssociations", at = @At("RETURN"))
+    @Inject(method = "initItemAssociations", at = @At("TAIL"))
     private static void initItemAssociations(CallbackInfo ci) {
         REGISTRIES.associate( (Item) ModItems.DAGGER, Daggers.REGISTRY);
     }

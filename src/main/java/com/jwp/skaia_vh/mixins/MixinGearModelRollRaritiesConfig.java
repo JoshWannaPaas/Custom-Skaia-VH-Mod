@@ -3,8 +3,6 @@ package com.jwp.skaia_vh.mixins;
 import com.google.gson.annotations.Expose;
 import com.jwp.skaia_vh.items.gear.VaultDaggerItem;
 import com.jwp.skaia_vh.models.Daggers;
-import com.llamalad7.mixinextras.sugar.Local;
-import com.llamalad7.mixinextras.sugar.ref.LocalRef;
 import iskallia.vault.config.Config;
 import iskallia.vault.config.GearModelRollRaritiesConfig;
 import iskallia.vault.gear.VaultGearRarity;
@@ -26,21 +24,18 @@ import java.util.stream.Collectors;
 public abstract class MixinGearModelRollRaritiesConfig extends Config {
 
     @Expose
-    private static Map<VaultGearRarity, List<String>> DAGGER_MODEL_ROLLS;
+    Map<String, List<String>> DAGGER_MODEL_ROLLS;
 
 
     @Inject(method = "reset", at = @At("HEAD"))
     private void resetHook(CallbackInfo ci) {
-        DAGGER_MODEL_ROLLS = new HashMap<>();
-        DAGGER_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY, (List<String>) Daggers.REGISTRY
-            .getIds().stream()
-            .map(ResourceLocation::toString)
-            .collect(Collectors.toList()));
+        this.DAGGER_MODEL_ROLLS = new HashMap();
+        this.DAGGER_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY.name(), (List) Daggers.REGISTRY.getIds().stream().map(ResourceLocation::toString).collect(Collectors.toList()));
     }
 
     @Inject(method = "getRolls", at = @At("HEAD"), cancellable = true)
-    private void getRollsHook(CallbackInfoReturnable<Map<VaultGearRarity, List<String>>> cir, @Local LocalRef<ItemStack> stack) {
-        if (stack instanceof VaultDaggerItem)
-            cir.setReturnValue(DAGGER_MODEL_ROLLS);
+    public void getRollsHook(ItemStack stack, CallbackInfoReturnable<Map<String, List<String>>> cir) {
+        if (stack.getItem() instanceof VaultDaggerItem)
+            cir.setReturnValue(this.DAGGER_MODEL_ROLLS);
     }
 }

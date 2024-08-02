@@ -42,6 +42,7 @@ public class SkaiaVH
         modEventBus.addListener(this::setup);
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
+        CustomVaultGearRegistry.registerAllGearEntries();
 
 //        SkaiaSoundEvents.register(modEventBus);
 //        EntityInit.ENTITY_TYPES.register(modEventBus);
@@ -61,7 +62,6 @@ public class SkaiaVH
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.PURPLE_FLOWER.get(), RenderType.cutout());
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_TORCH.get(), RenderType.cutout());
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_WALL_TORCH.get(), RenderType.cutout());
-//        CustomVaultGearRegistry.registerAllGearEntries();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
