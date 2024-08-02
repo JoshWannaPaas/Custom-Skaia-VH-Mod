@@ -7,5 +7,7 @@ import com.jwp.skaia_vh.models.Daggers;
 public class ModCustomVaultGearEntries {
     public static void registerGearEntries() {
         CustomVaultGearRegistry.addModel(new CustomVaultGearEntry(ModItems.DAGGER, "Dagger", Daggers.REGISTRY));
+        CustomVaultGearRegistry.addModel(new CustomVaultGearEntry(ModItems.KNIFE, "Knife", Daggers.REGISTRY));
+
     }
 }

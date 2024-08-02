@@ -20,6 +20,8 @@ public class MixinVaultGearToolTier {
     private static void registerCustomGearConfigs(CallbackInfoReturnable<Map<ResourceLocation, VaultGearTierConfig>> cir) {
         Map<ResourceLocation, VaultGearTierConfig> gearTierConfigMap = cir.getReturnValue();
         gearTierConfigMap.put(ModItems.DAGGER.getRegistryName(), (new VaultGearTierConfig(ModItems.DAGGER.getRegistryName()).readConfig()));
+        gearTierConfigMap.put(ModItems.KNIFE.getRegistryName(), (new VaultGearTierConfig(ModItems.KNIFE.getRegistryName()).readConfig()));
+
         cir.setReturnValue(gearTierConfigMap);
     }
 }

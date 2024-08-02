@@ -19,5 +19,6 @@ public class MixinModDynamicModels {
     @Inject(method = "initItemAssociations", at = @At("TAIL"))
     private static void initItemAssociations(CallbackInfo ci) {
         REGISTRIES.associate( (Item) ModItems.DAGGER, Daggers.REGISTRY);
+        REGISTRIES.associate( (Item) ModItems.KNIFE, Daggers.REGISTRY);
     }
 }

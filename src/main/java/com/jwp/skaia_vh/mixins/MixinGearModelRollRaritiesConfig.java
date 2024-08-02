@@ -2,6 +2,7 @@ package com.jwp.skaia_vh.mixins;
 
 import com.google.gson.annotations.Expose;
 import com.jwp.skaia_vh.items.gear.VaultDaggerItem;
+import com.jwp.skaia_vh.items.gear.VaultKnifeItem;
 import com.jwp.skaia_vh.models.Daggers;
 import iskallia.vault.config.Config;
 import iskallia.vault.config.GearModelRollRaritiesConfig;
@@ -36,6 +37,8 @@ public abstract class MixinGearModelRollRaritiesConfig extends Config {
     @Inject(method = "getRolls", at = @At("HEAD"), cancellable = true)
     public void getRollsHook(ItemStack stack, CallbackInfoReturnable<Map<String, List<String>>> cir) {
         if (stack.getItem() instanceof VaultDaggerItem)
+            cir.setReturnValue(this.DAGGER_MODEL_ROLLS);
+        if (stack.getItem() instanceof VaultKnifeItem)
             cir.setReturnValue(this.DAGGER_MODEL_ROLLS);
     }
 }
