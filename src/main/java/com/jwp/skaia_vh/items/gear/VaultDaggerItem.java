@@ -14,6 +14,7 @@ import iskallia.vault.gear.item.VaultGearItem;
 import iskallia.vault.gear.item.VaultGearToolTier;
 import iskallia.vault.gear.tooltip.GearTooltip;
 import iskallia.vault.init.ModConfigs;
+import iskallia.vault.init.ModDynamicModels;
 import iskallia.vault.init.ModGearAttributes;
 import iskallia.vault.util.MiscUtils;
 import net.minecraft.core.NonNullList;
@@ -33,8 +34,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.ToolAction;
-import net.minecraftforge.common.ToolActions;
 import org.jetbrains.annotations.NotNull;
+
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.List;
@@ -44,95 +45,114 @@ import java.util.Random;
 public class VaultDaggerItem extends SwordItem implements VaultGearItem, DyeableLeatherItem {
 
     public VaultDaggerItem(ResourceLocation id, Properties builder) {
-        super((Tier) VaultGearToolTier.INSTANCE, 0, -2.4F, builder);
-        setRegistryName(id);
+        super(VaultGearToolTier.INSTANCE, 0, -2.4F, builder);
+        this.setRegistryName(id);
     }
 
     @Nullable
+    @Override
     public ResourceLocation getRandomModel(ItemStack stack, Random random) {
         VaultGearData gearData = VaultGearData.read(stack);
-        VaultGearRarity rarity = gearData.getRarity();
-        EquipmentSlot intendedSlot = getIntendedSlot(stack);
-        ResourceLocation possibleIds = ModConfigs.GEAR_MODEL_ROLL_RARITIES.getRandomRoll(this.defaultItem(), gearData, intendedSlot, random);
-        return (ResourceLocation) MiscUtils.getRandomEntry(possibleIds);
+        EquipmentSlot intendedSlot = this.getIntendedSlot(stack);
+        return ModConfigs.GEAR_MODEL_ROLL_RARITIES.getRandomRoll(stack, gearData, intendedSlot, random);
     }
 
+    @Override
     public Optional<? extends DynamicModel<?>> resolveDynamicModel(ItemStack stack, ResourceLocation key) {
-        return Daggers.REGISTRY.get(key);
+        return (Optional<? extends DynamicModel<?>>) Daggers.REGISTRY.get(key);
     }
 
     @Nullable
+    @Override
     public EquipmentSlot getIntendedSlot(ItemStack stack) {
         return EquipmentSlot.MAINHAND;
     }
 
     @NotNull
+    @Override
     public VaultGearClassification getClassification(ItemStack stack) {
         return VaultGearClassification.SWORD;
     }
 
     @Nonnull
+    @Override
     public ProficiencyType getCraftingProficiencyType(ItemStack stack) {
         return ProficiencyType.SWORD;
     }
 
+    @Override
     public float getDestroySpeed(ItemStack stack, BlockState state) {
         return 1.0F;
     }
 
+    @Override
     public boolean isCorrectToolForDrops(ItemStack stack, BlockState state) {
         return false;
     }
 
+    @Override
     public Multimap<Attribute, AttributeModifier> getAttributeModifiers(EquipmentSlot slot, ItemStack stack) {
         return VaultGearHelper.getModifiers(stack, slot);
     }
 
+    @Override
     public boolean shouldCauseReequipAnimation(ItemStack oldStack, ItemStack newStack, boolean slotChanged) {
-        return VaultGearHelper.shouldPlayGearReequipAnimation(oldStack, newStack, slotChanged);
+        return false;
     }
 
+    @Override
     public void fillItemCategory(CreativeModeTab group, NonNullList<ItemStack> items) {
-        if (allowdedIn(group)) {
-            items.add(defaultItem());
+        if (this.allowdedIn(group)) {
+            items.add(this.defaultItem());
         }
     }
 
+    @Override
     public int getDefaultTooltipHideFlags(@NotNull ItemStack stack) {
         return super.getDefaultTooltipHideFlags(stack) | ItemStack.TooltipPart.MODIFIERS.getMask();
     }
 
+    @Override
     public boolean isRepairable(ItemStack stack) {
         return false;
     }
 
+    @Override
     public boolean isDamageable(ItemStack stack) {
-        return (VaultGearData.read(stack).getState() == VaultGearState.IDENTIFIED);
+        return VaultGearData.read(stack).getState() == VaultGearState.IDENTIFIED;
     }
 
+    @Override
     public int getMaxDamage(ItemStack stack) {
-        return ((Integer)VaultGearData.read(stack).get(ModGearAttributes.DURABILITY, VaultGearAttributeTypeMerger.intSum())).intValue();
+        return VaultGearData.read(stack).get(ModGearAttributes.DURABILITY, VaultGearAttributeTypeMerger.intSum());
     }
 
+    @Override
     public Component getName(ItemStack stack) {
         return VaultGearHelper.getDisplayName(stack, super.getName(stack));
     }
 
+    @Override
     public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
         return VaultGearHelper.rightClick(world, player, hand, super.use(world, player, hand));
     }
 
+    @Override
     public void inventoryTick(ItemStack stack, Level world, Entity entity, int itemSlot, boolean isSelected) {
         super.inventoryTick(stack, world, entity, itemSlot, isSelected);
-        if (entity instanceof ServerPlayer) { ServerPlayer player = (ServerPlayer)entity;
-            vaultGearTick(stack, player); }
+        if (entity instanceof ServerPlayer player) {
+            this.vaultGearTick(stack, player);
+        }
     }
 
     @OnlyIn(Dist.CLIENT)
+    @Override
     public void appendHoverText(ItemStack stack, Level world, List<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, world, tooltip, flag);
-        tooltip.addAll(createTooltip(stack, GearTooltip.itemTooltip()));
+        tooltip.addAll(this.createTooltip(stack, GearTooltip.itemTooltip()));
     }
+
+    @Override
     public boolean canPerformAction(ItemStack stack, ToolAction toolAction) {
         return false;
     }

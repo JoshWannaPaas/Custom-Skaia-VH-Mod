@@ -36,10 +36,10 @@ import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.List;
-import java.util.Optional;
 import java.util.Random;
 
 public class VaultKnifeItem extends BasicItem implements VaultGearItem, DyeableLeatherItem {
@@ -48,45 +48,30 @@ public class VaultKnifeItem extends BasicItem implements VaultGearItem, DyeableL
         super(id, properties);
     }
 
+    @Nonnull
+    @Override
+    public VaultGearClassification getClassification(ItemStack stack) {
+        return VaultGearClassification.WAND;
+    }
+
+    @Nonnull
+    @Override
+    public ProficiencyType getCraftingProficiencyType(ItemStack stack) {
+        return ProficiencyType.WAND;
+    }
+
+    @javax.annotation.Nullable
+    @Override
+    public EquipmentSlot getIntendedSlot(ItemStack stack) {
+        return EquipmentSlot.OFFHAND;
+    }
+
     @Nullable
     @Override
     public ResourceLocation getRandomModel(ItemStack stack, Random random) {
         VaultGearData gearData = VaultGearData.read(stack);
-        VaultGearRarity rarity = gearData.getRarity();
-        EquipmentSlot intendedSlot = getIntendedSlot(stack);
-        ResourceLocation possibleIds = ModConfigs.GEAR_MODEL_ROLL_RARITIES.getRandomRoll(this.defaultItem(), gearData, intendedSlot, random);
-        return (ResourceLocation) MiscUtils.getRandomEntry(possibleIds);
-    }
-
-    public Optional<? extends DynamicModel<?>> resolveDynamicModel(ItemStack stack, ResourceLocation key) {
-        return Daggers.REGISTRY.get(key);
-    }
-
-    @Nullable
-    @Override
-    public EquipmentSlot getIntendedSlot(ItemStack itemStack) {
-        return EquipmentSlot.OFFHAND;
-    }
-
-    @NotNull
-    @Override
-    public VaultGearClassification getClassification(ItemStack itemStack) {
-        return VaultGearClassification.WAND;
-    }
-
-    @NotNull
-    @Override
-    public ProficiencyType getCraftingProficiencyType(ItemStack itemStack) {
-        return ProficiencyType.WAND;
-    }
-
-    public Multimap<Attribute, AttributeModifier> getAttributeModifiers(EquipmentSlot slot, ItemStack stack) {
-        return VaultGearHelper.getModifiers(stack, slot);
-    }
-
-    @Override
-    public boolean shouldCauseReequipAnimation(ItemStack oldStack, ItemStack newStack, boolean slotChanged) {
-        return VaultGearHelper.shouldPlayGearReequipAnimation(oldStack, newStack, slotChanged);
+        EquipmentSlot intendedSlot = this.getIntendedSlot(stack);
+        return ModConfigs.GEAR_MODEL_ROLL_RARITIES.getRandomRoll(stack, gearData, intendedSlot, random);
     }
 
     @Override
@@ -99,6 +84,16 @@ public class VaultKnifeItem extends BasicItem implements VaultGearItem, DyeableL
     @Override
     public int getDefaultTooltipHideFlags(@NotNull ItemStack stack) {
         return super.getDefaultTooltipHideFlags(stack) | ItemStack.TooltipPart.MODIFIERS.getMask();
+    }
+
+    @Override
+    public Multimap<Attribute, AttributeModifier> getAttributeModifiers(EquipmentSlot slot, ItemStack stack) {
+        return VaultGearHelper.getModifiers(stack, slot);
+    }
+
+    @Override
+    public boolean shouldCauseReequipAnimation(ItemStack oldStack, ItemStack newStack, boolean slotChanged) {
+        return VaultGearHelper.shouldPlayGearReequipAnimation(oldStack, newStack, slotChanged);
     }
 
     @Override
@@ -140,5 +135,4 @@ public class VaultKnifeItem extends BasicItem implements VaultGearItem, DyeableL
         super.appendHoverText(stack, world, tooltip, flag);
         tooltip.addAll(this.createTooltip(stack, GearTooltip.itemTooltip()));
     }
-
 }

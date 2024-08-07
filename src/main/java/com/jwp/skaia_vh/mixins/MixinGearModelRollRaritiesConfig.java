@@ -30,8 +30,8 @@ public abstract class MixinGearModelRollRaritiesConfig extends Config {
 
     @Inject(method = "reset", at = @At("HEAD"))
     private void resetHook(CallbackInfo ci) {
-        this.DAGGER_MODEL_ROLLS = new HashMap();
-        this.DAGGER_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY.name(), (List) Daggers.REGISTRY.getIds().stream().map(ResourceLocation::toString).collect(Collectors.toList()));
+        this.DAGGER_MODEL_ROLLS = new HashMap<>();
+        this.DAGGER_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY.name(), Daggers.REGISTRY.getIds().stream().map(ResourceLocation::toString).collect(Collectors.toList()));
     }
 
     @Inject(method = "getRolls", at = @At("HEAD"), cancellable = true)
