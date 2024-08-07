@@ -5,12 +5,20 @@
   "compatibilityLevel": "JAVA_17",
   "required": true,
   "mixins": [
+    "MixinClassicListenersLogic",
+    "MixinCompletionProperties",
+    "MixinCrystalData",
     "MixinGearModelRollRaritiesConfig",
+    "MixinLootInfoGroupDefinitionRegistry",
+    "MixinModConfigs",
     "MixinModDynamicModels",
     "MixinModModels",
     "MixinReforgeTagModificationFocus",
     "MixinVaultGearToolTier",
-    "MixinVaultGearWorkbenchConfig"
+    "MixinVaultGearWorkbenchConfig",
+    "MixinVaultRegistry"
   ],
-  "client": []
+  "client": [
+    "MixinBountyScreen"
+  ]
 }

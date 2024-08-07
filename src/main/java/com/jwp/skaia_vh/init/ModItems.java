@@ -4,6 +4,7 @@ import com.jwp.skaia_vh.SkaiaVH;
 import com.jwp.skaia_vh.items.gear.VaultDaggerItem;
 import com.jwp.skaia_vh.items.gear.VaultKnifeItem;
 import iskallia.vault.VaultMod;
+import iskallia.vault.item.ItemVaultCrystalSeal;
 import iskallia.vault.item.gear.VaultSwordItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -31,12 +32,14 @@ public class ModItems {
     // Items with "the_vault" id's
     public static VaultDaggerItem DAGGER = new VaultDaggerItem(VaultMod.id("dagger"), new Item.Properties().tab(GEAR_GROUP).stacksTo(1));
     public static VaultKnifeItem KNIFE = new VaultKnifeItem(VaultMod.id("knife"), new Item.Properties().tab(GEAR_GROUP).stacksTo(1));
+    public static ItemVaultCrystalSeal CRYSTAL_SEAL_UNHINGED = new ItemVaultCrystalSeal(VaultMod.id("crystal_seal_unhinged"));
 
 
     public static void registerVaultItems(RegistryEvent.Register<Item> event ) {
         IForgeRegistry<Item> registry = event.getRegistry();
         registry.register(DAGGER);
         registry.register(KNIFE);
+        registry.register(CRYSTAL_SEAL_UNHINGED);
     }
 
     //Creative Tab
