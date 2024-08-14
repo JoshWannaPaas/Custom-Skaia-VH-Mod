@@ -6,6 +6,7 @@
   "required": true,
   "mixins": [
     "MixinGearModelRollRaritiesConfig",
+    "MixinMagnetItem",
     "MixinModDynamicModels",
     "MixinModModels",
     "MixinReforgeTagModificationFocus",
