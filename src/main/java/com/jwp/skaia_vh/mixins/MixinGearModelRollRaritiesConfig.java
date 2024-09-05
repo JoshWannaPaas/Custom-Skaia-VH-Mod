@@ -3,8 +3,10 @@ package com.jwp.skaia_vh.mixins;
 import com.google.gson.annotations.Expose;
 import com.jwp.skaia_vh.items.gear.VaultDaggerItem;
 import com.jwp.skaia_vh.items.gear.VaultKnifeItem;
+import com.jwp.skaia_vh.items.gear.VaultStaffItem;
 import com.jwp.skaia_vh.models.Daggers;
 import com.jwp.skaia_vh.models.Magnets;
+import com.jwp.skaia_vh.models.Staffs;
 import iskallia.vault.config.Config;
 import iskallia.vault.config.GearModelRollRaritiesConfig;
 import iskallia.vault.gear.VaultGearRarity;
@@ -31,6 +33,9 @@ public abstract class MixinGearModelRollRaritiesConfig extends Config {
     Map<String, List<String>> DAGGER_MODEL_ROLLS;
 
     @Expose
+    Map<String, List<String>> STAFF_MODEL_ROLLS;
+
+    @Expose
     Map<String, List<String>> MAGNET_MODEL_ROLLS;
 
 
@@ -38,6 +43,9 @@ public abstract class MixinGearModelRollRaritiesConfig extends Config {
     private void resetHook(CallbackInfo ci) {
         this.DAGGER_MODEL_ROLLS = new HashMap<>();
         this.DAGGER_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY.name(), Daggers.REGISTRY.getIds().stream().map(ResourceLocation::toString).collect(Collectors.toList()));
+
+        this.STAFF_MODEL_ROLLS = new HashMap<>();
+        this.STAFF_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY.name(), Staffs.REGISTRY.getIds().stream().map(ResourceLocation::toString).collect(Collectors.toList()));
 
         this.MAGNET_MODEL_ROLLS = new HashMap<>();
         this.MAGNET_MODEL_ROLLS.put(VaultGearRarity.SCRAPPY.name(), Magnets.REGISTRY.getIds().stream().map(ResourceLocation::toString).collect(Collectors.toList()));
@@ -49,6 +57,8 @@ public abstract class MixinGearModelRollRaritiesConfig extends Config {
             cir.setReturnValue(this.DAGGER_MODEL_ROLLS);
         if (stack.getItem() instanceof VaultKnifeItem)
             cir.setReturnValue(this.DAGGER_MODEL_ROLLS);
+        if (stack.getItem() instanceof VaultStaffItem)
+            cir.setReturnValue(this.STAFF_MODEL_ROLLS);
         if (stack.getItem() instanceof MagnetItem)
             cir.setReturnValue(this.MAGNET_MODEL_ROLLS);
     }

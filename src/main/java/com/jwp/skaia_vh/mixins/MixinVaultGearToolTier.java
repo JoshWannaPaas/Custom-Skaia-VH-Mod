@@ -21,6 +21,7 @@ public class MixinVaultGearToolTier {
         Map<ResourceLocation, VaultGearTierConfig> gearTierConfigMap = cir.getReturnValue();
         gearTierConfigMap.put(ModItems.DAGGER.getRegistryName(), (new VaultGearTierConfig(ModItems.DAGGER.getRegistryName()).readConfig()));
         gearTierConfigMap.put(ModItems.KNIFE.getRegistryName(), (new VaultGearTierConfig(ModItems.KNIFE.getRegistryName()).readConfig()));
+        gearTierConfigMap.put(ModItems.STAFF.getRegistryName(), (new VaultGearTierConfig(ModItems.STAFF.getRegistryName()).readConfig()));
 
         cir.setReturnValue(gearTierConfigMap);
     }

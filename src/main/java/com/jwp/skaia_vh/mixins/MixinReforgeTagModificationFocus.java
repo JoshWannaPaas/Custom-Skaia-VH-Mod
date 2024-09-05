@@ -16,5 +16,6 @@ public class MixinReforgeTagModificationFocus {
     static {
         ITEM_TO_NAME.put(ModItems.DAGGER, "Dagger");
         ITEM_TO_NAME.put(ModItems.KNIFE, "Knife");
+        ITEM_TO_NAME.put(ModItems.STAFF, "Staff");
     }
 }

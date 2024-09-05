@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "the_vault:item/gear/sword/perfect_blade",
+    "layer1": "the_vault:item/gear/sword/perfect_blade_overlay"
+  }
+}

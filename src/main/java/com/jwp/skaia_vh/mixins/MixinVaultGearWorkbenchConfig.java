@@ -19,7 +19,7 @@ import java.util.Map;
 public class MixinVaultGearWorkbenchConfig {
     @Inject(method = "registerConfigs", at = @At("TAIL"), remap = false)
     private static void extendRegisterConfigs(CallbackInfoReturnable<Map<Item, VaultGearWorkbenchConfig>> cir,  @Local LocalRef<Map<Item, VaultGearWorkbenchConfig>> gearConfig) {
-        List<Item> newGearItems = Arrays.asList(ModItems.DAGGER, ModItems.KNIFE);
+        List<Item> newGearItems = Arrays.asList(ModItems.DAGGER, ModItems.KNIFE, ModItems.STAFF);
 
         Iterator var2 = newGearItems.iterator();
 
