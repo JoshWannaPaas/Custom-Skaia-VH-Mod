@@ -186,6 +186,9 @@ dependencies {
     implementation fg.deobf("curse.maven:modernfix-790626:5399365")
     implementation fg.deobf("curse.maven:lazydfu-460819:3544496")
     implementation fg.deobf("curse.maven:rubidium-574856:4494903")
+    implementation fg.deobf("curse.maven:oculus-581495:4578744")
+    implementation fg.deobf("curse.maven:emf-844662:5156825")
+    implementation fg.deobf("curse.maven:etf-568563:5079830")
 
     compileOnly annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.3")
     implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.3.3")) {

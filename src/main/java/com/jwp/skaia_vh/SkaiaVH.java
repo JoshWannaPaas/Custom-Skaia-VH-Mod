@@ -1,6 +1,8 @@
 package com.jwp.skaia_vh;
 
+import com.jwp.skaia_vh.api.discoverylogic.goal.SkaiaModelDiscoveryGoals;
 import com.jwp.skaia_vh.api.registry.CustomVaultGearRegistry;
+import com.jwp.skaia_vh.events.SkaiaCommonEvents;
 import com.jwp.skaia_vh.init.ModBlocks;
 import com.mojang.logging.LogUtils;
 import com.jwp.skaia_vh.init.ModItems;
@@ -62,6 +64,9 @@ public class SkaiaVH
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.PURPLE_FLOWER.get(), RenderType.cutout());
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_TORCH.get(), RenderType.cutout());
 //        ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBROSIUM_WALL_TORCH.get(), RenderType.cutout());
+
+        SkaiaCommonEvents.init();
+        SkaiaModelDiscoveryGoals.init();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
