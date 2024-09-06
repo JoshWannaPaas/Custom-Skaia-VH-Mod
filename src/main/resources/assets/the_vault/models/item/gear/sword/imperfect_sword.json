@@ -1,7 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "the_vault:item/gear/sword/imperfect_sword",
-    "layer1": "the_vault:item/gear/sword/imperfect_sword_overlay"
-  }
-}

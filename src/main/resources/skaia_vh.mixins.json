@@ -5,13 +5,11 @@
   "compatibilityLevel": "JAVA_17",
   "required": true,
   "mixins": [
-    "MixinAxes",
     "MixinGearModelRollRaritiesConfig",
     "MixinMagnetItem",
     "MixinModDynamicModels",
     "MixinModModels",
     "MixinReforgeTagModificationFocus",
-    "MixinSwords",
     "MixinVaultGearToolTier",
     "MixinVaultGearWorkbenchConfig",
     "MixinVoidFluidBlock"

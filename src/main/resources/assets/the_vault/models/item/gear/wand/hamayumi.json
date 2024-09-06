@@ -421,7 +421,7 @@
 		},
 		"firstperson_lefthand": {
 			"rotation": [5, -22, -6],
-			"translation": [13, 0, -13],
+			"translation": [14, 0, -13],
 			"scale": [2, 2, 2]
 		},
 		"ground": {
@@ -429,8 +429,8 @@
 			"translation": [0, 5, 0]
 		},
 		"gui": {
-			"rotation": [-20, 160, 30],
-			"translation": [-1, 0.75, 0]
+			"rotation": [45, -45, 50],
+			"translation": [2.25, 0.75, 0]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],

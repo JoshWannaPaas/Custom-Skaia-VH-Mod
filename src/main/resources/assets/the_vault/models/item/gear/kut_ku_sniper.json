@@ -1,0 +1,7 @@
+{
+  "parent": "mh_heaven_and_hell:custom/kutkusniper",
+  "textures": {
+    "0": "mh_heaven_and_hell:blocks/kutkusniper",
+    "particle": "mh_heaven_and_hell:items/kutkufireballtexture2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "mh_heaven_and_hell:custom/glavenussword",
+  "textures": {
+    "0": "mh_heaven_and_hell:blocks/glavenusbladetexture",
+    "particle": "mh_heaven_and_hell:items/glavswordicon"
+  }
+}

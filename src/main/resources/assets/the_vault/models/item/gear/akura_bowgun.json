@@ -1,0 +1,7 @@
+{
+  "parent": "mh_heaven_and_hell:custom/akuracrossbow",
+  "textures": {
+    "0": "mh_heaven_and_hell:blocks/akuracrossbowtexture",
+    "particle": "mh_heaven_and_hell:items/akuracrossbowicon"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "mh_heaven_and_hell:custom/arzurosgun",
+  "textures": {
+    "0": "mh_heaven_and_hell:blocks/arzurosguntexture",
+    "particle": "mh_heaven_and_hell:items/kutkufireballtexture2"
+  }
+}

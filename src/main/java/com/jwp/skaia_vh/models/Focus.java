@@ -8,7 +8,14 @@ import iskallia.vault.dynamodel.registry.DynamicModelRegistry;
 
 public class Focus {
     public static final DynamicModelRegistry<PlainItemModel> REGISTRY = new DynamicModelRegistry();
+    public static final PlainItemModel TATTERED_TOME;
+    public static final PlainItemModel GRIMOIRE;
+    public static final PlainItemModel ARCANE_CODEX;
+    public static final PlainItemModel MYSTICAL_LEXICON;
+    public static final PlainItemModel TOME_OF_KNOWLEDGE;
+    public static final PlainItemModel SOUL_ORB;
 
+    /*** Modded ***/
     // Epic
     public static final PlainItemModel CRANES_ECHOING_CALL;
     public static final PlainItemModel JADEFALLS_SPLENDOR;
@@ -30,5 +37,13 @@ public class Focus {
         MEMORY_OF_DUST = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/memory_of_dust"), "Memory of Dust")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SKYWARD_ATLAS = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/skyward_atlas"), "Skyward Atlas")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         TULAYTULLAHS_REMEMBERANCE = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/tulaytullahs_remembrance"), "Tulaytullah's Remembrance")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+
+        /* Vanilla */
+        TATTERED_TOME = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/tatteredtome"), "Tattered Tome")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        GRIMOIRE = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/grimoire"), "Grimoire")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        ARCANE_CODEX = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/arcanecodex"), "Arcane Codex")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        MYSTICAL_LEXICON = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/mysticallexicon"), "Mystical Lexicon")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        TOME_OF_KNOWLEDGE = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/tomeofknowledge"), "Tome of Knowledge")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        SOUL_ORB = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/soulorb"), "Soul Orb")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
     }
 }

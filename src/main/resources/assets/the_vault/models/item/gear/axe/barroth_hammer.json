@@ -1,0 +1,144 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [
+		64,
+		64
+	],
+	"textures": {
+		"0": "the_vault:item/gear/axe/barroth_hammer_texture"
+	},
+	"elements": [
+		{
+			"from": [7, 10, 3.5],
+			"to": [9, 12, 14.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [2, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [8, 9.75, 8.5, 10.25], "texture": "#0"},
+				"east": {"uv": [5.25, 9.75, 8, 10.25], "texture": "#0"},
+				"south": {"uv": [11.25, 9.75, 11.75, 10.25], "texture": "#0"},
+				"west": {"uv": [8.5, 9.75, 11.25, 10.25], "texture": "#0"},
+				"up": {"uv": [8.5, 9.75, 8, 7], "texture": "#0"},
+				"down": {"uv": [9, 7, 8.5, 9.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 10, 1.5],
+			"to": [12, 19, 9.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [2, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [2, 7.5, 4, 9.75], "texture": "#0"},
+				"east": {"uv": [0, 7.5, 2, 9.75], "texture": "#0"},
+				"south": {"uv": [6, 7.5, 8, 9.75], "texture": "#0"},
+				"west": {"uv": [4, 7.5, 6, 9.75], "texture": "#0"},
+				"up": {"uv": [4, 7.5, 2, 5.5], "texture": "#0"},
+				"down": {"uv": [6, 5.5, 4, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 19, 3.5],
+			"to": [8, 23, 6.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [2, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [0.75, 2.5, 0.75, 3.5], "texture": "#0"},
+				"east": {"uv": [0, 2.5, 0.75, 3.5], "texture": "#0"},
+				"south": {"uv": [1.5, 2.5, 1.5, 3.5], "texture": "#0"},
+				"west": {"uv": [0.75, 2.5, 1.5, 3.5], "texture": "#0"},
+				"up": {"uv": [0.75, 2.5, 0.75, 1.75], "texture": "#0"},
+				"down": {"uv": [0.75, 1.75, 0.75, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 14, 0.5],
+			"to": [8, 21, 3.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [2, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [2.25, 0.75, 2.25, 2.5], "texture": "#0"},
+				"east": {"uv": [1.5, 0.75, 2.25, 2.5], "texture": "#0"},
+				"south": {"uv": [3, 0.75, 3, 2.5], "texture": "#0"},
+				"west": {"uv": [2.25, 0.75, 3, 2.5], "texture": "#0"},
+				"up": {"uv": [2.25, 0.75, 2.25, 0], "texture": "#0"},
+				"down": {"uv": [2.25, 0, 2.25, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 1, -4.5],
+			"to": [8, 8, -1.5],
+			"rotation": {"angle": 45, "axis": "x", "origin": [2, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [0.75, 0.75, 0.75, 2.5], "texture": "#0"},
+				"east": {"uv": [0, 0.75, 0.75, 2.5], "texture": "#0"},
+				"south": {"uv": [1.5, 0.75, 1.5, 2.5], "texture": "#0"},
+				"west": {"uv": [0.75, 0.75, 1.5, 2.5], "texture": "#0"},
+				"up": {"uv": [0.75, 0.75, 0.75, 0], "texture": "#0"},
+				"down": {"uv": [0.75, 0, 0.75, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, -1, -10.5],
+			"to": [13, 7, 3.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [2, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [3.5, 3.5, 6, 5.5], "texture": "#0"},
+				"east": {"uv": [0, 3.5, 3.5, 5.5], "texture": "#0"},
+				"south": {"uv": [9.5, 3.5, 12, 5.5], "texture": "#0"},
+				"west": {"uv": [6, 3.5, 9.5, 5.5], "texture": "#0"},
+				"up": {"uv": [6, 3.5, 3.5, 0], "texture": "#0"},
+				"down": {"uv": [8.5, 0, 6, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 9, 14.5],
+			"to": [10, 13, 18.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [2, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [9.5, 1, 10.5, 2], "texture": "#0"},
+				"east": {"uv": [8.5, 1, 9.5, 2], "texture": "#0"},
+				"south": {"uv": [11.5, 1, 12.5, 2], "texture": "#0"},
+				"west": {"uv": [10.5, 1, 11.5, 2], "texture": "#0"},
+				"up": {"uv": [10.5, 1, 9.5, 0], "texture": "#0"},
+				"down": {"uv": [11.5, 0, 10.5, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 2.25, -1.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 2.5, -1.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [53, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [53, 0, 0]
+		},
+		"ground": {
+			"rotation": [94, 0, 0],
+			"translation": [0, 6.75, 0]
+		},
+		"gui": {
+			"rotation": [98.77, 38.19, 107.49],
+			"translation": [2.5, -1.25, 0],
+			"scale": [0.61, 0.61, 0.61]
+		},
+		"head": {
+			"rotation": [79, 0, 0],
+			"translation": [0, -8.75, -4.5]
+		},
+		"fixed": {
+			"rotation": [93, 51, 101],
+			"translation": [3.75, -1, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "barrothhammer",
+			"origin": [10, 8, 19.5],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

@@ -489,7 +489,7 @@
 		"gui": {
 			"rotation": [-20, 160, 30],
 			"translation": [0, 1.75, 0],
-			"scale": [2, 2, 2]
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"fixed": {
 			"scale": [2, 2, 2]

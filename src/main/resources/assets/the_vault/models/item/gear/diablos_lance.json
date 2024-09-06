@@ -1,0 +1,7 @@
+{
+  "parent": "mh_heaven_and_hell:custom/diabloslance",
+  "textures": {
+    "0": "mh_heaven_and_hell:blocks/diabloslancetexture",
+    "particle": "mh_heaven_and_hell:items/diabloslanceicon"
+  }
+}

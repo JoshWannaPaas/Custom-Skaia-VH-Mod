@@ -1,0 +1,7 @@
+{
+  "parent": "mh_heaven_and_hell:custom/blangongalongsword",
+  "textures": {
+    "0": "mh_heaven_and_hell:blocks/blangongalongswordtexture",
+    "particle": "mh_heaven_and_hell:items/kutkufireballtexture2"
+  }
+}

@@ -554,8 +554,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [-20, 160, 30],
-			"translation": [0, 4.25, 0]
+			"rotation": [175.25, 6.45, -162.57],
+			"translation": [0.25, 4.25, 0]
 		},
 		"head": {
 			"rotation": [0, 90, 0],
