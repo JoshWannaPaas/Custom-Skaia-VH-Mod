@@ -58,7 +58,6 @@ public class Swords {
     public static final HandHeldModel FLAWED_SWORD;                         // VH1
     public static final HandHeldModel FLAWED_BLADE;                         // VH1
 
-
     // Rare
     public static final HandHeldModel FLAWLESS_SWORD;                       // VH1
     public static final HandHeldModel FLAWLESS_BLADE;                       // VH1
@@ -85,30 +84,31 @@ public class Swords {
 
     // Unique
     public static final HandHeldModel SPEAR_OF_THE_VOID;                    // CraftImpact - Stay in Void Liquid for 60s in a vault
-    public static final HandHeldModel LEGACY_OF_FLAMESCION;                 // ExtraBotany - Kill 100 Mobs on Fire in a vault
+    public static final HandHeldModel LEGACY_OF_FLAMESCION;                 // ExtraBotany - Kill 50 Mobs on Fire in a vault
     public static final HandHeldModel SWORD_THAT_SEALS_THE_DARKNESS;        // ShayDeeJay - ???
-    public static final HandHeldModel SLICE_OF_CHEESE;                      // Breadcrumb - Unlocked with Cheese Hat
-    public static final HandHeldModel SLIME_BUSTER;                         // Breadcrumb - ??? slime in a bucket?
-    public static final HandHeldModel LUTER_BOI;                            // Breadcrumb - ??? maybe something with xerca
-    public static final HandHeldModel BIRTHDAY_ON_A_STICK;                  // Breadcrumb - ??? cake?
-    public static final HandHeldModel TOUKABOU_SHIGURA;                     // Teyvat Weapon Collection - ??? Something umbrella
+    public static final HandHeldModel SLICE_OF_CHEESE;                      // Breadcrumb - ??? Unlocked with Cheese Hat
+    public static final HandHeldModel SLIME_BUSTER;                         // Breadcrumb - ??? kill 300 slimes
+    public static final HandHeldModel LUTEY_BOI;                            // Breadcrumb - ??? maybe something with xerca
+    public static final HandHeldModel GLIZZY_GLADIUS;                       // Breadcrumb - ??? cake?
+    public static final HandHeldModel TOUKABOU_SHIGURE;                     // Teyvat Weapon Collection - ??? Something umbrella
 
     public Swords() {
     }
     static {
         /* Modded */
-                                // Scrappy
+
+                            // Scrappy
         CHIPPED_SWORD                    = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/chipped_sword"),           "Chipped Sword")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         CHIPPED_BLADE                    = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/chipped_blade"),           "Chipped Blade")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-                                // Common
+                            // Common
         FLAWED_SWORD                     = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/flawed_sword"),            "Flawed Sword")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         FLAWED_BLADE                     = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/flawed_blade"),            "Flawed Blade")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-                                // Rare
+                            // Rare
         FLAWLESS_SWORD                   = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/flawless_sword"),          "Flawless Sword")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         FLAWLESS_BLADE                   = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/flawless_blade"),          "Flawless Blade")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         WATCHER                          = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/watcher"),                 "The Watcher")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         KEY_OF_KHAJ_NISUT                = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/key_of_khaj_nisut"),       "Key of Khaj Nisut")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-                                // Epic
+                            // Epic
         IMPERFECT_SWORD                  = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/imperfect_sword"),         "Imperfect Sword")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         IMPERFECT_BLADE                  = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/imperfect_blade"),         "Imperfect Blade")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         REBELLION_MAY_CRY                = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/rebellion"),               "Rebellion May Cry")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
@@ -116,7 +116,7 @@ public class Swords {
         FAVONIUS_GREATSWORD              = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/favonius_greatsword"),     "Favonious Greatsword")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         MISTSPLITTER_REFORGED            = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/mistsplitter_reforged"),   "Mistsplitter Reforged")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         PRIMORDIAL_JADE_CUTTER           = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/primordial_jade_cutter"),  "Primordial Jade Cutter")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-                                // Omega
+                            // Omega
         PERFECT_SWORD                    = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/perfect_sword"),           "Perfect Sword")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         PERFECT_BLADE                    = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/perfect_blade"),           "Perfect Blade")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SUBSPACE_LANCE                   = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/subspace_lance"),          "Subspace Lance")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
@@ -124,15 +124,15 @@ public class Swords {
         FREEDOM_SWORN                    = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/freedom_sworn"),           "Freedom Sworn")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         REDHORN_STONETHRESHER            = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/redhorn_stonethresher"),   "Redhorn Stonethresher")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         WOLFS_GRAVESTONE                 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/wolfs_gravestone"),        "Wolf's Gravestone")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-                               // Unique
+                           // Unique
         LEGACY_OF_FLAMESCION             = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/legacy_of_flamescion"),    "Legacy of Flamescion")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SPEAR_OF_THE_VOID                = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/spear_of_the_void"),       "Spear of the Void")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SWORD_THAT_SEALS_THE_DARKNESS    = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/master_sword"),            "Sword That Seals the Darkness")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SLICE_OF_CHEESE                  = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/slice_of_cheese"),         "Slice of Cheese")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SLIME_BUSTER                     = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/slime_buster"),            "Slime Buster")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        LUTER_BOI                        = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/luter_boi"),               "Lutey Boi")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        BIRTHDAY_ON_A_STICK              = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/hotdog_candle"),           "Glizzy Gladius")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        TOUKABOU_SHIGURA                 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/toukabou_shigure"),        "Toukabou Shigure")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        LUTEY_BOI = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/luter_boi"),               "Lutey Boi")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        GLIZZY_GLADIUS = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/hotdog_candle"),           "Glizzy Gladius")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        TOUKABOU_SHIGURE                 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/toukabou_shigure"),        "Toukabou Shigure")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
 
         /* Vanilla */
         SWORD_0 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/sword_0"), "Life Knight")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));

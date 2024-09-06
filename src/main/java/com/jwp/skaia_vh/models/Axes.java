@@ -42,16 +42,16 @@ public class Axes {
 
     // Common
     public static final HandHeldModel FLAWED_AXE;
-    public static final HandHeldModel BARROTH_HAMMER;
+//    public static final HandHeldModel BARROTH_HAMMER;
 
     // Rare
     public static final HandHeldModel FLAWLESS_AXE;
-    public static final HandHeldModel BINDING_BLUDGEON;
-    public static final HandHeldModel KUT_KU_JAW;
+//    public static final HandHeldModel BINDING_BLUDGEON;
+//    public static final HandHeldModel KUT_KU_JAW;
 
     // Epic
     public static final HandHeldModel IMPERFECT_AXE;
-    public static final HandHeldModel BRACHY_TAILHAMMER;
+//    public static final HandHeldModel BRACHY_TAILHAMMER;
 //    public static final HandHeldModel PATH_TO_ACHERON;
 
     // Omega
@@ -78,10 +78,10 @@ public class Axes {
         VERDICT = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/verdict"), "Verdict")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SKALLIANCHOR = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/skallianchor"), "Skallianchor")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         FLEUVE_CENDRE_FERRYMAN = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/fleuve_cendre_ferryman"), "Fleuve Cendre Ferryman")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        BARROTH_HAMMER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/barroth_hammer"), "Barroth Hammer")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        BINDING_BLUDGEON = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/binding_bludgeon"), "Binding Bludgeon")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        KUT_KU_JAW = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/kut_ku_jaw"), "Kut Ku Jaw")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        BRACHY_TAILHAMMER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/brachy_tailhammer"), "Brachy Tailhammer")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+//        BARROTH_HAMMER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/barroth_hammer"), "Barroth Hammer")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+//        BINDING_BLUDGEON = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/binding_bludgeon"), "Binding Bludgeon")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+//        KUT_KU_JAW = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/kut_ku_jaw"), "Kut Ku Jaw")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+//        BRACHY_TAILHAMMER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/brachy_tailhammer"), "Brachy Tailhammer")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
 
 
 

@@ -1,7 +1,0 @@
-{
-  "parent": "mh_heaven_and_hell:custom/deviljhosword",
-  "textures": {
-    "0": "mh_heaven_and_hell:blocks/deviljhoswordtexture",
-    "particle": "mh_heaven_and_hell:items/deviljhobladeicon"
-  }
-}

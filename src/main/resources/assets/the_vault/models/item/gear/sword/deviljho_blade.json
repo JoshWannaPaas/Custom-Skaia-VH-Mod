@@ -1,0 +1,7 @@
+{
+  "parent": "the_vault:item/gear/custom/deviljhosword",
+  "textures": {
+    "0": "the_vault:item/gear/sword/deviljhoswordtexture",
+    "particle": "the_vault:item/gear/sword/deviljhobladeicon"
+  }
+}
