@@ -30,7 +30,7 @@ public class Staffs {
     public static final HandHeldModel STAFF_OF_HOMA;
 
     // Unique
-    public static final HandHeldModel THE_CATCH;    // Kill a fish in the vault
+    public static final HandHeldModel THE_CATCH;    // Catch a fish in the vault
 
 
 

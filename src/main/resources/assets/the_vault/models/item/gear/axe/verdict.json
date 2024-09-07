@@ -1,9 +1,6 @@
 {
 	"credit": "Made by Raycifer",
-	"texture_size": [
-		32, 
-		32
-	],
+	"texture_size": [32, 32],
 	"textures": {
 		"0": "the_vault:item/gear/axe/verdict"
 	},
@@ -438,8 +435,8 @@
 			"translation": [0, 8.25, 0]
 		},
 		"gui": {
-			"rotation": [155.53, 15.43, -138.64],
-			"translation": [0, 1.75, 0],
+			"rotation": [19.7, 19.63, -50.99],
+			"translation": [0.75, 0.5, 0],
 			"scale": [0.75, 0.75, 0.75]
 		}
 	},

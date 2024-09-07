@@ -7,6 +7,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraftforge.event.entity.player.ItemFishedEvent;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -14,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = VoidFluidBlock.class, remap = false)
 public class MixinVoidFluidBlock {
-
     @Inject(method = "entityInside", at = @At(
             value = "INVOKE",
             target = "Liskallia/vault/fluid/block/VoidFluidBlock;affectPlayer(Lnet/minecraft/server/level/ServerPlayer;)V"

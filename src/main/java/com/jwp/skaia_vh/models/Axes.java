@@ -35,33 +35,33 @@ public class Axes {
     public static final HandHeldModel WENDARRS_CLOCKAXE;
     public static final HandHeldModel GODAXE;
 
-
     /*** Modded ***/
     // Scrappy
-    public static final HandHeldModel CHIPPED_AXE;
+    public static final HandHeldModel CHIPPED_AXE;                          // VH1
 
     // Common
-    public static final HandHeldModel FLAWED_AXE;
+    public static final HandHeldModel FLAWED_AXE;                           // VH1
 //    public static final HandHeldModel BARROTH_HAMMER;
 
     // Rare
-    public static final HandHeldModel FLAWLESS_AXE;
+    public static final HandHeldModel FLAWLESS_AXE;                         // VH1
 //    public static final HandHeldModel BINDING_BLUDGEON;
 //    public static final HandHeldModel KUT_KU_JAW;
 
     // Epic
-    public static final HandHeldModel IMPERFECT_AXE;
-//    public static final HandHeldModel BRACHY_TAILHAMMER;
+    public static final HandHeldModel IMPERFECT_AXE;                        // VH1
+//    public static final HandHeldModel BRACHY_TAILHAMMER;                  // MonHun H&H
 //    public static final HandHeldModel PATH_TO_ACHERON;
 
     // Omega
-    public static final HandHeldModel PERFECT_AXE;
-    public static final HandHeldModel VERDICT;
+    public static final HandHeldModel PERFECT_AXE;                          // VH1
+    public static final HandHeldModel VERDICT;                              // Teyvat Weapon Collection
 
     // Unique
-    public static final HandHeldModel CRIMSON_MOONS_SEMBLANCE;          // Blood Moon mobs
-    public static final HandHeldModel FLEUVE_CENDRE_FERRYMAN;           // beat up with a stick or something
-    public static final HandHeldModel SKALLIANCHOR;                     // something iskall
+    public static final HandHeldModel CRIMSON_MOONS_SEMBLANCE;              // Teyvat Weapon Collection - Kill 300 Blood Moon Mobs
+    public static final HandHeldModel FLEUVE_CENDRE_FERRYMAN;               // Teyvat Weapon Collection - Kill 100 Mobs with a Lightning Rod
+    public static final HandHeldModel SKALLIANCHOR;                         // Breadcrumb - Kill 500 Flooded Mobs (Skeleton Pirates/Drowned)
+    public static final HandHeldModel TERRASTEEL_AXE;                       // Botania - Craft the item
 
     public Axes() {
     }
@@ -78,6 +78,11 @@ public class Axes {
         VERDICT = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/verdict"), "Verdict")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SKALLIANCHOR = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/skallianchor"), "Skallianchor")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         FLEUVE_CENDRE_FERRYMAN = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/fleuve_cendre_ferryman"), "Fleuve Cendre Ferryman")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        TERRASTEEL_AXE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/terrasteel_axe"), "Terrasteel Axe")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+
+
+
+
 //        BARROTH_HAMMER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/barroth_hammer"), "Barroth Hammer")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
 //        BINDING_BLUDGEON = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/binding_bludgeon"), "Binding Bludgeon")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
 //        KUT_KU_JAW = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/kut_ku_jaw"), "Kut Ku Jaw")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
@@ -95,7 +100,7 @@ public class Axes {
         AXE_6 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/axe_6"), "Jade Warrior")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         AXE_7 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/axe_7"), "Garnet Warrior")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         AXE_8 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/axe_8"), "Sugilite Warrior")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
-        AXE_9 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/axe_9"), "Berserker of Essence")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        AXE_9 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/fix/axe_9"), "Berserker of Essence")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         AXE_10 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/axe_10"), "Berserker of Dawn")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         AXE_11 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/axe_11"), "Berserker of Souls")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         AXE_12 = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/axe_12"), "Berserker of Depths")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
@@ -113,5 +118,7 @@ public class Axes {
         VELARAS_HAMMER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/velaras_hammer"), "Velara's Hammer")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         WENDARRS_CLOCKAXE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/wendarrs_clockaxe"), "Wendarr's Clockaxe")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         GODAXE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/godaxe"), "Godaxe")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+
     }
+
 }

@@ -39,7 +39,7 @@ public class Wands {
 
 
     // Unique
-    public static final PlainItemModel END_OF_THE_LINE;
+    public static final PlainItemModel END_OF_THE_LINE; // Kill 10 fish in the vault
 
 
     public Wands() {

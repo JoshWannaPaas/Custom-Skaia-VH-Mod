@@ -4,6 +4,7 @@ import com.jwp.skaia_vh.SkaiaVH;
 import com.jwp.skaia_vh.blocks.AercloudBlock;
 import com.jwp.skaia_vh.blocks.AetherGrassBlock;
 import com.jwp.skaia_vh.blocks.AetherPathBlock;
+import com.jwp.skaia_vh.blocks.PedestalSwordBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.effect.MobEffects;
@@ -28,12 +29,14 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SkaiaVH.MOD_ID);
 
+    public static final RegistryObject<PedestalSwordBlock> HERO_PEDESTAL = BLOCKS.register("hero_pedestal",          () -> new PedestalSwordBlock(Block.Properties.copy(Blocks.BEDROCK)));
+
     /*-----------------Dirts-----------------*/
     public static final RegistryObject<Block>           AETHER_DIRT                       = BLOCKS.register("aether_dirt",                  () -> new              Block(Block.Properties.copy(Blocks.DIRT)));
     public static final RegistryObject<Block>           COARSE_AETHER_DIRT                = BLOCKS.register("coarse_aether_dirt",           () -> new              Block(Block.Properties.copy(Blocks.COARSE_DIRT)));
-    public static final RegistryObject<GrassBlock>      AETHER_GRASS_BLOCK                = BLOCKS.register("aether_grass_block",           () -> new AetherGrassBlock(Block.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<GrassBlock>      AETHER_GRASS_BLOCK                = BLOCKS.register("aether_grass_block",           () -> new   AetherGrassBlock(Block.Properties.copy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<GrassBlock>      ENCHANTED_AETHER_GRASS_BLOCK      = BLOCKS.register("enchanted_aether_grass_block", () -> new   AetherGrassBlock(Block.Properties.copy(Blocks.GRASS_BLOCK)));
-    public static final RegistryObject<DirtPathBlock>   AETHER_DIRT_PATH                  = BLOCKS.register("aether_dirt_path",             () -> new AetherPathBlock(Block.Properties.copy(Blocks.DIRT_PATH)));
+    public static final RegistryObject<DirtPathBlock>   AETHER_DIRT_PATH                  = BLOCKS.register("aether_dirt_path",             () -> new    AetherPathBlock(Block.Properties.copy(Blocks.DIRT_PATH)));
     
     
     /*-----------------Plants-----------------*/

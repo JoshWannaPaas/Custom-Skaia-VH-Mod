@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing=east,disarmed=false": {
+      "model": "skaia_vh:block/hero_pedestal",
+      "y": 270
+    },
+    "facing=north,disarmed=false": {
+      "model": "skaia_vh:block/hero_pedestal",
+      "y": 180
+    },
+    "facing=south,disarmed=false": {
+      "model": "skaia_vh:block/hero_pedestal"
+    },
+    "facing=west,disarmed=false": {
+      "model": "skaia_vh:block/hero_pedestal",
+      "y": 90
+    },
+
+    "facing=east,disarmed=true": {
+      "model": "skaia_vh:block/hero_pedestal_empty",
+      "y": 270
+    },
+    "facing=north,disarmed=true": {
+      "model": "skaia_vh:block/hero_pedestal_empty",
+      "y": 180
+    },
+    "facing=south,disarmed=true": {
+      "model": "skaia_vh:block/hero_pedestal_empty"
+    },
+    "facing=west,disarmed=true": {
+      "model": "skaia_vh:block/hero_pedestal_empty",
+      "y": 90
+    }
+  }
+}

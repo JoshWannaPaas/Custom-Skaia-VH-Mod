@@ -26,10 +26,10 @@ public class MixinModDynamicModels {
         REGISTRIES.associate( (Item) ModItems.STAFF, Staffs.REGISTRY);
         REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.MAGNET, Magnets.REGISTRY);
 
-        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.SWORD, ModDynamicModels.Swords.REGISTRY);
-        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.AXE, ModDynamicModels.Axes.REGISTRY);
-        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.WAND, ModDynamicModels.Wands.REGISTRY);
-        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.FOCUS, ModDynamicModels.Focus.REGISTRY);
+//        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.SWORD, ModDynamicModels.Swords.REGISTRY);
+//        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.AXE, ModDynamicModels.Axes.REGISTRY);
+//        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.WAND, ModDynamicModels.Wands.REGISTRY);
+//        REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.FOCUS, ModDynamicModels.Focus.REGISTRY);
         REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.SWORD, Swords.REGISTRY);
         REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.AXE, Axes.REGISTRY);
         REGISTRIES.associate( (Item) iskallia.vault.init.ModItems.WAND, Wands.REGISTRY);

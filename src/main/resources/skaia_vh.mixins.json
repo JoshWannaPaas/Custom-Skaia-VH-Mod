@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_17",
   "required": true,
   "mixins": [
+    "MixinCakeObjective",
     "MixinGearModelRollRaritiesConfig",
+    "MixinItemFishedEvent",
     "MixinMagnetItem",
     "MixinModDynamicModels",
     "MixinModModels",

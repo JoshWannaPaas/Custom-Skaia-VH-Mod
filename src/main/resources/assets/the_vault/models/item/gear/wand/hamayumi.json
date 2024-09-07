@@ -429,8 +429,8 @@
 			"translation": [0, 5, 0]
 		},
 		"gui": {
-			"rotation": [45, -45, 50],
-			"translation": [2.25, 0.75, 0]
+			"rotation": [123.59, 32.84, -109.25],
+			"translation": [-1.75, 1, 0]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
