@@ -34,6 +34,8 @@ public class Axes {
     public static final HandHeldModel VELARAS_HAMMER;
     public static final HandHeldModel WENDARRS_CLOCKAXE;
     public static final HandHeldModel GODAXE;
+    public static final HandHeldModel CRYSTAL_CRUSHER;
+    public static final HandHeldModel BUTCHERS_BONE_CLEAVER;
 
     /*** Modded ***/
     // Scrappy
@@ -118,6 +120,8 @@ public class Axes {
         VELARAS_HAMMER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/velaras_hammer"), "Velara's Hammer")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         WENDARRS_CLOCKAXE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/wendarrs_clockaxe"), "Wendarr's Clockaxe")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         GODAXE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/godaxe"), "Godaxe")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        CRYSTAL_CRUSHER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/crystal_crusher"), "Crystal Crusher")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        BUTCHERS_BONE_CLEAVER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/axe/butchers_bone_cleaver"), "Butcher's Bone Cleaver")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
 
     }
 
