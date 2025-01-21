@@ -14,6 +14,7 @@ public class Focus {
     public static final PlainItemModel MYSTICAL_LEXICON;
     public static final PlainItemModel TOME_OF_KNOWLEDGE;
     public static final PlainItemModel SOUL_ORB;
+    public static final PlainItemModel FROZEN_ORB;
 
     /*** Modded ***/
     // Epic
@@ -45,5 +46,6 @@ public class Focus {
         MYSTICAL_LEXICON = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/mysticallexicon"), "Mystical Lexicon")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         TOME_OF_KNOWLEDGE = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/tomeofknowledge"), "Tome of Knowledge")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SOUL_ORB = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/soulorb"), "Soul Orb")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        FROZEN_ORB = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/focus/frozenorb"), "Frozen Orb")).properties(new DynamicModelProperties()));
     }
 }

@@ -47,6 +47,10 @@ public class Swords {
     public static final HandHeldModel HONEY_WAND;
     public static final HandHeldModel GODSWORD;
     public static final HandHeldModel SOULFLAME;
+    public static final HandHeldModel INFLATED_JUSTICE;
+    public static final HandHeldModel CRYSTAL_BLADE;
+    public static final HandHeldModel CRYSTAL_DOUBLE_BLADE;
+    public static final HandHeldModel ELITE_SKELETON_DAGGER;
 
 
     /*** Modded ***/
@@ -188,6 +192,10 @@ public class Swords {
         HONEY_WAND = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/honey_wand"), "Honey Wand")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         GODSWORD = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/godsword"), "Godsword")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SOULFLAME = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/soulflame"), "Soulflame Blade")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        INFLATED_JUSTICE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/inflatedjustice"), "Inflated Justice")).properties(new DynamicModelProperties()));
+        CRYSTAL_BLADE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/crystalblade"), "Crystal Blade")).properties(new DynamicModelProperties()));
+        CRYSTAL_DOUBLE_BLADE = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/crystaldoubleblade"), "Crystal Double Blade")).properties(new DynamicModelProperties()));
+        ELITE_SKELETON_DAGGER = (HandHeldModel)REGISTRY.register((HandHeldModel)(new HandHeldModel(VaultMod.id("gear/sword/elite_skeleton_dagger"), "Elite Skeleton Dagger")).properties(new DynamicModelProperties()));
 
     }
 }
