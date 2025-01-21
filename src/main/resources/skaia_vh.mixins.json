@@ -13,6 +13,7 @@
     "MixinReforgeTagModificationFocus",
     "MixinVaultGearToolTier",
     "MixinVaultGearWorkbenchConfig",
+    "MixinVhatItems",
     "MixinVoidFluidBlock"
   ],
   "client": []

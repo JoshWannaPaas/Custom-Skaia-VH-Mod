@@ -191,6 +191,8 @@ dependencies {
     implementation fg.deobf("curse.maven:oculus-581495:4578744")
     implementation fg.deobf("curse.maven:crafttweaker-239197:4886430")
     implementation fg.deobf("curse.maven:vault-hunters-api-1118899:6103827")
+    implementation fg.deobf("curse.maven:vhat-can-i-roll-vault-hunters-3-addon-1098054:5986719")
+    implementation fg.deobf("curse.maven:create-328085:4550986")
 
     compileOnly annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.3")
     implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.3.3")) {
