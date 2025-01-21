@@ -190,6 +190,7 @@ dependencies {
     implementation fg.deobf("curse.maven:rubidium-574856:4494903")
     implementation fg.deobf("curse.maven:oculus-581495:4578744")
     implementation fg.deobf("curse.maven:crafttweaker-239197:4886430")
+    implementation fg.deobf("curse.maven:vault-hunters-api-1118899:6103827")
 
     compileOnly annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.3")
     implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.3.3")) {

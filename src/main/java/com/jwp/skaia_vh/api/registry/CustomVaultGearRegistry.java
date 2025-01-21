@@ -21,10 +21,6 @@ public class CustomVaultGearRegistry {
         return CUSTOM_VAULT_GEAR_ENTRIES.size();
     }
 
-    public static void registerAllGearEntries() {
-        ModCustomVaultGearEntries.registerGearEntries();
-    }
-
     public static ItemLike[] getItemLikes() {
         Set<ItemLike> itemLikeList = new HashSet<ItemLike>();
         for(CustomVaultGearEntry entry : CUSTOM_VAULT_GEAR_ENTRIES) {

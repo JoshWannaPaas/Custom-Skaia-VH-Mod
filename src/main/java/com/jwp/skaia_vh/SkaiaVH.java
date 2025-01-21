@@ -4,6 +4,7 @@ import com.jwp.skaia_vh.api.discoverylogic.goal.SkaiaModelDiscoveryGoals;
 import com.jwp.skaia_vh.api.registry.CustomVaultGearRegistry;
 import com.jwp.skaia_vh.events.SkaiaCommonEvents;
 import com.jwp.skaia_vh.init.ModBlocks;
+import com.jwp.skaia_vh.init.ModCustomVaultGearEntries;
 import com.mojang.logging.LogUtils;
 import com.jwp.skaia_vh.init.ModItems;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import xyz.iwolfking.vhapi.api.registry.gear.CustomVaultGearRegistryEntry;
 
 import java.util.stream.Collectors;
 
@@ -44,10 +46,7 @@ public class SkaiaVH
         modEventBus.addListener(this::setup);
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
-        CustomVaultGearRegistry.registerAllGearEntries();
-
-//        SkaiaSoundEvents.register(modEventBus);
-//        EntityInit.ENTITY_TYPES.register(modEventBus);
+        modEventBus.addGenericListener(CustomVaultGearRegistryEntry.class, ModCustomVaultGearEntries::registerGearEntries);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

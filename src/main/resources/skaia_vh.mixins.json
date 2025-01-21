@@ -10,7 +10,6 @@
     "MixinItemFishedEvent",
     "MixinMagnetItem",
     "MixinModDynamicModels",
-    "MixinModModels",
     "MixinReforgeTagModificationFocus",
     "MixinVaultGearToolTier",
     "MixinVaultGearWorkbenchConfig",
