@@ -3,10 +3,7 @@ package com.jwp.skaia_vh.items.gear;
 import com.google.common.collect.Multimap;
 import com.jwp.skaia_vh.models.Daggers;
 import iskallia.vault.dynamodel.DynamicModel;
-import iskallia.vault.gear.VaultGearClassification;
-import iskallia.vault.gear.VaultGearHelper;
-import iskallia.vault.gear.VaultGearRarity;
-import iskallia.vault.gear.VaultGearState;
+import iskallia.vault.gear.*;
 import iskallia.vault.gear.attribute.type.VaultGearAttributeTypeMerger;
 import iskallia.vault.gear.crafting.ProficiencyType;
 import iskallia.vault.gear.data.VaultGearData;
@@ -53,8 +50,14 @@ public class VaultDaggerItem extends SwordItem implements VaultGearItem, Dyeable
     @Override
     public ResourceLocation getRandomModel(ItemStack stack, Random random) {
         VaultGearData gearData = VaultGearData.read(stack);
-        EquipmentSlot intendedSlot = this.getIntendedSlot(stack);
+        EquipmentSlot intendedSlot = this.getGearType(stack).getEquipmentSlot();
         return ModConfigs.GEAR_MODEL_ROLL_RARITIES.getRandomRoll(stack, gearData, intendedSlot, random);
+    }
+
+    @Nonnull
+    @Override
+    public ProficiencyType getCraftingProficiencyType(ItemStack stack) {
+        return ProficiencyType.SWORD;
     }
 
     @Override
@@ -62,22 +65,15 @@ public class VaultDaggerItem extends SwordItem implements VaultGearItem, Dyeable
         return (Optional<? extends DynamicModel<?>>) Daggers.REGISTRY.get(key);
     }
 
-    @Nullable
-    @Override
-    public EquipmentSlot getIntendedSlot(ItemStack stack) {
-        return EquipmentSlot.MAINHAND;
+    @Nonnull
+    public VaultGearType getGearType(ItemStack stack) {
+        return VaultGearType.SWORD;
     }
 
     @NotNull
     @Override
     public VaultGearClassification getClassification(ItemStack stack) {
         return VaultGearClassification.SWORD;
-    }
-
-    @Nonnull
-    @Override
-    public ProficiencyType getCraftingProficiencyType(ItemStack stack) {
-        return ProficiencyType.SWORD;
     }
 
     @Override

@@ -26,6 +26,8 @@ public class Wands {
     public static final PlainItemModel CARROT_ON_A_WAND;
     public static final PlainItemModel CARRI_KING;
     public static final PlainItemModel SOUL;
+    public static final PlainItemModel INFERNOS_REACH;
+    public static final PlainItemModel THE_CHAIN;
 
     /*** Modded ***/
     // Epic
@@ -73,5 +75,7 @@ public class Wands {
         CARROT_ON_A_WAND = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/wand/carrot_on_a_wand"), "Carrot on a Wand")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         CARRI_KING = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/wand/carri_king"), "Carri King Scepter")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
         SOUL = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/wand/soul"), "Soul Wand")).properties((new DynamicModelProperties()).allowTransmogrification().discoverOnRoll()));
+        INFERNOS_REACH = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/wand/infernos_reach"), "Inferno's Reach")).properties(new DynamicModelProperties()));
+        THE_CHAIN = (PlainItemModel)REGISTRY.register((PlainItemModel)(new PlainItemModel(VaultMod.id("gear/wand/chaining_wand"), "The Chain")).properties(new DynamicModelProperties()));
     }
 }

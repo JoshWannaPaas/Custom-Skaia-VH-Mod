@@ -3,10 +3,7 @@ package com.jwp.skaia_vh.items.gear;
 import com.google.common.collect.Multimap;
 import com.jwp.skaia_vh.models.Daggers;
 import iskallia.vault.dynamodel.DynamicModel;
-import iskallia.vault.gear.VaultGearClassification;
-import iskallia.vault.gear.VaultGearHelper;
-import iskallia.vault.gear.VaultGearRarity;
-import iskallia.vault.gear.VaultGearState;
+import iskallia.vault.gear.*;
 import iskallia.vault.gear.attribute.type.VaultGearAttributeTypeMerger;
 import iskallia.vault.gear.crafting.ProficiencyType;
 import iskallia.vault.gear.data.GearDataCache;
@@ -54,23 +51,28 @@ public class VaultKnifeItem extends BasicItem implements VaultGearItem, DyeableL
         return VaultGearClassification.WAND;
     }
 
+//    @Nonnull
+//    @Override
+//    public ProficiencyType getCraftingProficiencyType(ItemStack stack) {
+//        return ProficiencyType.WAND;
+//    }
+
+    @Nonnull
+    public VaultGearType getGearType(ItemStack stack) {
+        return VaultGearType.WAND;
+    }
+
     @Nonnull
     @Override
     public ProficiencyType getCraftingProficiencyType(ItemStack stack) {
         return ProficiencyType.WAND;
     }
 
-    @javax.annotation.Nullable
-    @Override
-    public EquipmentSlot getIntendedSlot(ItemStack stack) {
-        return EquipmentSlot.OFFHAND;
-    }
-
     @Nullable
     @Override
     public ResourceLocation getRandomModel(ItemStack stack, Random random) {
         VaultGearData gearData = VaultGearData.read(stack);
-        EquipmentSlot intendedSlot = this.getIntendedSlot(stack);
+        EquipmentSlot intendedSlot = this.getGearType(stack).getEquipmentSlot();
         return ModConfigs.GEAR_MODEL_ROLL_RARITIES.getRandomRoll(stack, gearData, intendedSlot, random);
     }
 
@@ -112,7 +114,7 @@ public class VaultKnifeItem extends BasicItem implements VaultGearItem, DyeableL
     }
 
     @Override
-    public Component getName(ItemStack stack) {
+    public @NotNull Component getName(ItemStack stack) {
         return VaultGearHelper.getDisplayName(stack, super.getName(stack));
     }
 
